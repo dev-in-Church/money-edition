@@ -287,7 +287,7 @@ export default function Navbar() {
             <ThemeToggle />
 
             <Button asChild className="hidden md:flex">
-              <Link href="/contact">Get a Quote</Link>
+              <Link href="/gallery">Gallery</Link>
             </Button>
             <Sheet>
               <SheetTrigger asChild>
