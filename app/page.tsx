@@ -86,7 +86,7 @@ export default function Home() {
             </div>
             <div className="relative mx-auto aspect-video max-w-[600px] overflow-hidden rounded-xl border bg-background p-1 shadow-xl lg:ml-auto lg:p-2">
               <Image
-                src="/images/team/eliud.jpg?height=600&width=800&text=Dashboard+Demo"
+                src="/images/services/hero1.jpg?height=600&width=800&text=Dashboard+Demo"
                 alt="Product screenshot"
                 width={800}
                 height={600}

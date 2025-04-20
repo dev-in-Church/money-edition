@@ -57,7 +57,7 @@ export default function MobileDevelopmentPage() {
             </div>
             <div className="mx-auto aspect-video w-full max-w-[600px] overflow-hidden rounded-xl">
               <Image
-                src="/placeholder.svg?height=600&width=800&text=Mobile+Development"
+                src="/images/services/mobi1.jpg?height=600&width=800&text=Mobile+Development"
                 alt="Mobile Development"
                 width={800}
                 height={600}

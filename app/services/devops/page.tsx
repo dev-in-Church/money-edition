@@ -58,7 +58,7 @@ export default function DevOpsPage() {
             </div>
             <div className="mx-auto aspect-video w-full max-w-[600px] overflow-hidden rounded-xl">
               <Image
-                src="/placeholder.svg?height=600&width=800&text=DevOps+Services"
+                src="/images/services/dev1.jpg?height=600&width=800&text=DevOps+Services"
                 alt="DevOps Services"
                 width={800}
                 height={600}

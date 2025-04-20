@@ -57,7 +57,7 @@ export default function CustomSoftwarePage() {
             </div>
             <div className="mx-auto aspect-video w-full max-w-[600px] overflow-hidden rounded-xl">
               <Image
-                src="/placeholder.svg?height=600&width=800&text=Custom+Software"
+                src="/images/services/cust1.jpg?height=600&width=800&text=Custom+Software"
                 alt="Custom Software Development"
                 width={800}
                 height={600}

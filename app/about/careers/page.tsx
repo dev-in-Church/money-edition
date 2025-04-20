@@ -57,7 +57,7 @@ export default function CareersPage() {
             </div>
             <div className="mx-auto aspect-video w-full max-w-[600px] overflow-hidden rounded-xl">
               <Image
-                src="/placeholder.svg?height=600&width=800&text=Join+Our+Team"
+                src="/images/services/career1.jpg?height=600&width=800&text=Join+Our+Team"
                 alt="eUNITA Team"
                 width={800}
                 height={600}
