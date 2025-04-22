@@ -486,7 +486,7 @@ export default function Home() {
                     description:
                       "A custom e-commerce solution with advanced inventory management.",
                     image:
-                      "/apps/bobby.jpg?height=400&width=600&text=E-commerce+Platform",
+                      "/apps/ap.png?height=400&width=600&text=E-commerce+Platform",
                   },
                   {
                     title: "Healthcare App",
@@ -494,7 +494,7 @@ export default function Home() {
                     description:
                       "Patient management app for a leading healthcare provider.",
                     image:
-                      "/placeholder.svg?height=400&width=600&text=Healthcare+App",
+                      "/apps/ap1.png?height=400&width=600&text=Healthcare+App",
                   },
                   {
                     title: "Financial Dashboard",
@@ -502,7 +502,7 @@ export default function Home() {
                     description:
                       "Real-time financial analytics dashboard for investment firm.",
                     image:
-                      "/placeholder.svg?height=400&width=600&text=Financial+Dashboard",
+                      "/apps/ap2.png?height=400&width=600&text=Financial+Dashboard",
                   },
                 ].map((project, index) => (
                   <Card key={index} className="overflow-hidden">
@@ -543,7 +543,7 @@ export default function Home() {
                     description:
                       "A custom e-commerce solution with advanced inventory management.",
                     image:
-                      "/placeholder.svg?height=400&width=600&text=E-commerce+Platform",
+                      "/apps/ap3.png?height=400&width=600&text=E-commerce+Platform",
                   },
                   {
                     title: "Corporate Website",
@@ -551,7 +551,7 @@ export default function Home() {
                     description:
                       "Modern website with CMS for a multinational corporation.",
                     image:
-                      "/placeholder.svg?height=400&width=600&text=Corporate+Website",
+                      "/apps/ap4.png?height=400&width=600&text=Corporate+Website",
                   },
                   {
                     title: "Online Learning Platform",
@@ -559,7 +559,7 @@ export default function Home() {
                     description:
                       "Interactive learning platform with video courses and assessments.",
                     image:
-                      "/placeholder.svg?height=400&width=600&text=Learning+Platform",
+                      "/apps/ap5.png?height=400&width=600&text=Learning+Platform",
                   },
                 ].map((project, index) => (
                   <Card key={index} className="overflow-hidden">
@@ -601,7 +601,7 @@ export default function Home() {
                     description:
                       "Patient management app for a leading healthcare provider.",
                     image:
-                      "/placeholder.svg?height=400&width=600&text=Healthcare+App",
+                      "/apps/ap6.png?height=400&width=600&text=Healthcare+App",
                   },
                   {
                     title: "Delivery Tracking App",
@@ -609,7 +609,7 @@ export default function Home() {
                     description:
                       "Real-time package tracking app for logistics company.",
                     image:
-                      "/placeholder.svg?height=400&width=600&text=Delivery+App",
+                      "/apps/ap7.png?height=400&width=600&text=Delivery+App",
                   },
                   {
                     title: "Fitness Tracker",
@@ -617,7 +617,7 @@ export default function Home() {
                     description:
                       "Comprehensive fitness tracking app with social features.",
                     image:
-                      "/placeholder.svg?height=400&width=600&text=Fitness+App",
+                      "/apps/ap8.png?height=400&width=600&text=Fitness+App",
                   },
                 ].map((project, index) => (
                   <Card key={index} className="overflow-hidden">
@@ -659,7 +659,7 @@ export default function Home() {
                     description:
                       "Real-time financial analytics dashboard for investment firm.",
                     image:
-                      "/placeholder.svg?height=400&width=600&text=Financial+Dashboard",
+                      "/apps/ap9.png?height=400&width=600&text=Financial+Dashboard",
                   },
                   {
                     title: "Inventory Management System",
@@ -667,7 +667,7 @@ export default function Home() {
                     description:
                       "Comprehensive inventory system for manufacturing company.",
                     image:
-                      "/placeholder.svg?height=400&width=600&text=Inventory+System",
+                      "/apps/ap10.png?height=400&width=600&text=Inventory+System",
                   },
                   {
                     title: "HR Management Platform",
@@ -675,7 +675,7 @@ export default function Home() {
                     description:
                       "Employee management and HR automation platform.",
                     image:
-                      "/placeholder.svg?height=400&width=600&text=HR+Platform",
+                      "/apps/ap11.png?height=400&width=600&text=HR+Platform",
                   },
                 ].map((project, index) => (
                   <Card key={index} className="overflow-hidden">

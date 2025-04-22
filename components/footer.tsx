@@ -176,9 +176,9 @@ export default function Footer() {
             <div className="flex items-start gap-2 text-sm text-muted-foreground">
               <MapPin className="mt-0.5 h-4 w-4 shrink-0" />
               <p>
-                123 Tech Avenue, Suite 400
+                Eldoret Daima Towers, 9th Floor
                 <br />
-                San Francisco, CA 94107
+                Eldoret, C39 94107
               </p>
             </div>
             <div className="flex items-center gap-2 text-sm text-muted-foreground">

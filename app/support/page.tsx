@@ -573,7 +573,7 @@ export default function SupportPage() {
                   </CardDescription>
                 </CardHeader>
                 <CardContent>
-                  <p className="text-lg font-medium">+1 (555) 123-4567</p>
+                  <p className="text-lg font-medium">+254 795 198 141</p>
                   <p className="text-sm text-muted-foreground mt-2">
                     Available Monday through Friday, 9:00 AM to 6:00 PM (PST)
                   </p>

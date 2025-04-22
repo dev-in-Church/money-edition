@@ -281,13 +281,13 @@ export default function PrivacyPolicyPage() {
             <p className="font-medium">
               eUNITA
               <br />
-              123 Tech Avenue, Suite 400
+              Eldoret Daima Towers, 9th Floor
               <br />
-              San Francisco, CA 94107
+              Eldoret, C39 94107
               <br />
               Email: privacy@eunita.com
               <br />
-              Phone: +1 (555) 123-4567
+              Phone: +254 795 198 141
             </p>
           </section>
         </div>

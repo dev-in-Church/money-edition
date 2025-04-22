@@ -1,10 +1,24 @@
-import Link from "next/link"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Table, TableBody, TableCell, TableHead, TableHeader, TableRow } from "@/components/ui/table"
-import { Badge } from "@/components/ui/badge"
-import { CheckCircle, ArrowRight, XCircle } from "lucide-react"
+import Link from "next/link";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import {
+  Table,
+  TableBody,
+  TableCell,
+  TableHead,
+  TableHeader,
+  TableRow,
+} from "@/components/ui/table";
+import { Badge } from "@/components/ui/badge";
+import { CheckCircle, ArrowRight, XCircle } from "lucide-react";
 
 export default function PricingPage() {
   return (
@@ -18,7 +32,8 @@ export default function PricingPage() {
                 Transparent Pricing for Every Business
               </h1>
               <p className="max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Choose the perfect plan for your business needs. No hidden fees, just value-driven solutions.
+                Choose the perfect plan for your business needs. No hidden fees,
+                just value-driven solutions.
               </p>
             </div>
           </div>
@@ -48,10 +63,14 @@ export default function PricingPage() {
                       </Badge>
                     </div>
                     <CardTitle className="text-2xl">Basic</CardTitle>
-                    <CardDescription>Perfect for small businesses and startups</CardDescription>
-                    <div className="mt-4 flex items-baseline text-5xl font-bold">
-                      $4,999
-                      <span className="ml-1 text-sm font-normal text-muted-foreground">one-time</span>
+                    <CardDescription>
+                      Perfect for small businesses and startups
+                    </CardDescription>
+                    <div className="mt-4 flex items-baseline text-4xl font-bold">
+                      Ksh.4,999
+                      <span className="ml-1 text-sm font-normal text-muted-foreground">
+                        one-time
+                      </span>
                     </div>
                   </CardHeader>
                   <CardContent className="pb-4">
@@ -78,11 +97,15 @@ export default function PricingPage() {
                       </li>
                       <li className="flex items-center gap-2 pricing-feature-divider">
                         <XCircle className="h-4 w-4 text-muted-foreground" />
-                        <span className="text-muted-foreground">Content Management System</span>
+                        <span className="text-muted-foreground">
+                          Content Management System
+                        </span>
                       </li>
                       <li className="flex items-center gap-2">
                         <XCircle className="h-4 w-4 text-muted-foreground" />
-                        <span className="text-muted-foreground">E-commerce functionality</span>
+                        <span className="text-muted-foreground">
+                          E-commerce functionality
+                        </span>
                       </li>
                     </ul>
                   </CardContent>
@@ -100,10 +123,14 @@ export default function PricingPage() {
                       </Badge>
                     </div>
                     <CardTitle className="text-2xl">Professional</CardTitle>
-                    <CardDescription>For growing businesses with specific needs</CardDescription>
-                    <div className="mt-4 flex items-baseline text-5xl font-bold">
-                      $9,999
-                      <span className="ml-1 text-sm font-normal text-muted-foreground">one-time</span>
+                    <CardDescription>
+                      For growing businesses with specific needs
+                    </CardDescription>
+                    <div className="mt-4 flex items-baseline text-4xl font-bold">
+                      Ksh.9,999
+                      <span className="ml-1 text-sm font-normal text-muted-foreground">
+                        one-time
+                      </span>
                     </div>
                   </CardHeader>
                   <CardContent className="pb-4">
@@ -152,10 +179,14 @@ export default function PricingPage() {
                       </Badge>
                     </div>
                     <CardTitle className="text-2xl">Enterprise</CardTitle>
-                    <CardDescription>Custom solutions for larger organizations</CardDescription>
-                    <div className="mt-4 flex items-baseline text-5xl font-bold">
-                      $19,999+
-                      <span className="ml-1 text-sm font-normal text-muted-foreground">one-time</span>
+                    <CardDescription>
+                      Custom solutions for larger organizations
+                    </CardDescription>
+                    <div className="mt-4 flex items-baseline text-4xl font-bold">
+                      Ksh.19,999+
+                      <span className="ml-1 text-sm font-normal text-muted-foreground">
+                        one-time
+                      </span>
                     </div>
                   </CardHeader>
                   <CardContent className="pb-4">
@@ -200,7 +231,9 @@ export default function PricingPage() {
 
               {/* Feature Comparison Table */}
               <div className="mt-16">
-                <h3 className="text-xl font-bold text-center mb-6">Detailed Feature Comparison</h3>
+                <h3 className="text-xl font-bold text-center mb-6">
+                  Detailed Feature Comparison
+                </h3>
                 <div className="overflow-x-auto">
                   <Table className="w-full comparison-table">
                     <TableHeader>
@@ -219,7 +252,9 @@ export default function PricingPage() {
                         <TableCell>Unlimited</TableCell>
                       </TableRow>
                       <TableRow>
-                        <TableCell className="font-medium">Responsive Design</TableCell>
+                        <TableCell className="font-medium">
+                          Responsive Design
+                        </TableCell>
                         <TableCell>
                           <CheckCircle className="h-4 w-4 text-primary mx-auto" />
                         </TableCell>
@@ -231,13 +266,17 @@ export default function PricingPage() {
                         </TableCell>
                       </TableRow>
                       <TableRow>
-                        <TableCell className="font-medium">SEO Optimization</TableCell>
+                        <TableCell className="font-medium">
+                          SEO Optimization
+                        </TableCell>
                         <TableCell>Basic</TableCell>
                         <TableCell>Advanced</TableCell>
                         <TableCell>Premium</TableCell>
                       </TableRow>
                       <TableRow>
-                        <TableCell className="font-medium">Content Management System</TableCell>
+                        <TableCell className="font-medium">
+                          Content Management System
+                        </TableCell>
                         <TableCell>
                           <XCircle className="h-4 w-4 text-muted-foreground mx-auto" />
                         </TableCell>
@@ -249,7 +288,9 @@ export default function PricingPage() {
                         </TableCell>
                       </TableRow>
                       <TableRow>
-                        <TableCell className="font-medium">Blog Functionality</TableCell>
+                        <TableCell className="font-medium">
+                          Blog Functionality
+                        </TableCell>
                         <TableCell>
                           <XCircle className="h-4 w-4 text-muted-foreground mx-auto" />
                         </TableCell>
@@ -261,7 +302,9 @@ export default function PricingPage() {
                         </TableCell>
                       </TableRow>
                       <TableRow>
-                        <TableCell className="font-medium">E-commerce</TableCell>
+                        <TableCell className="font-medium">
+                          E-commerce
+                        </TableCell>
                         <TableCell>
                           <XCircle className="h-4 w-4 text-muted-foreground mx-auto" />
                         </TableCell>
@@ -271,7 +314,9 @@ export default function PricingPage() {
                         </TableCell>
                       </TableRow>
                       <TableRow>
-                        <TableCell className="font-medium">Custom Integrations</TableCell>
+                        <TableCell className="font-medium">
+                          Custom Integrations
+                        </TableCell>
                         <TableCell>
                           <XCircle className="h-4 w-4 text-muted-foreground mx-auto" />
                         </TableCell>
@@ -309,10 +354,14 @@ export default function PricingPage() {
                       </Badge>
                     </div>
                     <CardTitle className="text-2xl">Basic</CardTitle>
-                    <CardDescription>Simple mobile app with core functionality</CardDescription>
-                    <div className="mt-4 flex items-baseline text-5xl font-bold">
-                      $15,000
-                      <span className="ml-1 text-sm font-normal text-muted-foreground">starting at</span>
+                    <CardDescription>
+                      Simple mobile app with core functionality
+                    </CardDescription>
+                    <div className="mt-4 flex items-baseline text-4xl font-bold">
+                      Ksh.15,000
+                      <span className="ml-1 text-sm font-normal text-muted-foreground">
+                        starting at
+                      </span>
                     </div>
                   </CardHeader>
                   <CardContent className="pb-4">
@@ -339,11 +388,15 @@ export default function PricingPage() {
                       </li>
                       <li className="flex items-center gap-2 pricing-feature-divider">
                         <XCircle className="h-4 w-4 text-muted-foreground" />
-                        <span className="text-muted-foreground">Push notifications</span>
+                        <span className="text-muted-foreground">
+                          Push notifications
+                        </span>
                       </li>
                       <li className="flex items-center gap-2">
                         <XCircle className="h-4 w-4 text-muted-foreground" />
-                        <span className="text-muted-foreground">Offline functionality</span>
+                        <span className="text-muted-foreground">
+                          Offline functionality
+                        </span>
                       </li>
                     </ul>
                   </CardContent>
@@ -361,10 +414,14 @@ export default function PricingPage() {
                       </Badge>
                     </div>
                     <CardTitle className="text-2xl">Professional</CardTitle>
-                    <CardDescription>Feature-rich app for growing businesses</CardDescription>
-                    <div className="mt-4 flex items-baseline text-5xl font-bold">
-                      $30,000
-                      <span className="ml-1 text-sm font-normal text-muted-foreground">starting at</span>
+                    <CardDescription>
+                      Feature-rich app for growing businesses
+                    </CardDescription>
+                    <div className="mt-4 flex items-baseline text-4xl font-bold">
+                      Ksh.30,000
+                      <span className="ml-1 text-sm font-normal text-muted-foreground">
+                        starting at
+                      </span>
                     </div>
                   </CardHeader>
                   <CardContent className="pb-4">
@@ -413,10 +470,14 @@ export default function PricingPage() {
                       </Badge>
                     </div>
                     <CardTitle className="text-2xl">Enterprise</CardTitle>
-                    <CardDescription>Complex applications with custom requirements</CardDescription>
-                    <div className="mt-4 flex items-baseline text-5xl font-bold">
-                      $50,000+
-                      <span className="ml-1 text-sm font-normal text-muted-foreground">starting at</span>
+                    <CardDescription>
+                      Complex applications with custom requirements
+                    </CardDescription>
+                    <div className="mt-4 flex items-baseline text-4xl font-bold">
+                      Ksh.50,000+
+                      <span className="ml-1 text-sm font-normal text-muted-foreground">
+                        starting at
+                      </span>
                     </div>
                   </CardHeader>
                   <CardContent className="pb-4">
@@ -461,7 +522,9 @@ export default function PricingPage() {
 
               {/* Feature Comparison Table */}
               <div className="mt-16">
-                <h3 className="text-xl font-bold text-center mb-6">Detailed Feature Comparison</h3>
+                <h3 className="text-xl font-bold text-center mb-6">
+                  Detailed Feature Comparison
+                </h3>
                 <div className="overflow-x-auto">
                   <Table className="w-full comparison-table">
                     <TableHeader>
@@ -486,13 +549,17 @@ export default function PricingPage() {
                         <TableCell>Unlimited</TableCell>
                       </TableRow>
                       <TableRow>
-                        <TableCell className="font-medium">UI/UX Design</TableCell>
+                        <TableCell className="font-medium">
+                          UI/UX Design
+                        </TableCell>
                         <TableCell>Basic</TableCell>
                         <TableCell>Advanced</TableCell>
                         <TableCell>Premium</TableCell>
                       </TableRow>
                       <TableRow>
-                        <TableCell className="font-medium">Push Notifications</TableCell>
+                        <TableCell className="font-medium">
+                          Push Notifications
+                        </TableCell>
                         <TableCell>
                           <XCircle className="h-4 w-4 text-muted-foreground mx-auto" />
                         </TableCell>
@@ -504,7 +571,9 @@ export default function PricingPage() {
                         </TableCell>
                       </TableRow>
                       <TableRow>
-                        <TableCell className="font-medium">In-app Purchases</TableCell>
+                        <TableCell className="font-medium">
+                          In-app Purchases
+                        </TableCell>
                         <TableCell>
                           <XCircle className="h-4 w-4 text-muted-foreground mx-auto" />
                         </TableCell>
@@ -516,7 +585,9 @@ export default function PricingPage() {
                         </TableCell>
                       </TableRow>
                       <TableRow>
-                        <TableCell className="font-medium">Offline Functionality</TableCell>
+                        <TableCell className="font-medium">
+                          Offline Functionality
+                        </TableCell>
                         <TableCell>
                           <XCircle className="h-4 w-4 text-muted-foreground mx-auto" />
                         </TableCell>
@@ -526,7 +597,9 @@ export default function PricingPage() {
                         </TableCell>
                       </TableRow>
                       <TableRow>
-                        <TableCell className="font-medium">Third-party Integrations</TableCell>
+                        <TableCell className="font-medium">
+                          Third-party Integrations
+                        </TableCell>
                         <TableCell>Limited</TableCell>
                         <TableCell>Standard</TableCell>
                         <TableCell>Advanced</TableCell>
@@ -560,10 +633,14 @@ export default function PricingPage() {
                       </Badge>
                     </div>
                     <CardTitle className="text-2xl">Starter</CardTitle>
-                    <CardDescription>Small-scale custom software solutions</CardDescription>
-                    <div className="mt-4 flex items-baseline text-5xl font-bold">
-                      $25,000
-                      <span className="ml-1 text-sm font-normal text-muted-foreground">starting at</span>
+                    <CardDescription>
+                      Small-scale custom software solutions
+                    </CardDescription>
+                    <div className="mt-4 flex items-baseline text-4xl font-bold">
+                      Ksh.25,000
+                      <span className="ml-1 text-sm font-normal text-muted-foreground">
+                        starting at
+                      </span>
                     </div>
                   </CardHeader>
                   <CardContent className="pb-4">
@@ -590,11 +667,15 @@ export default function PricingPage() {
                       </li>
                       <li className="flex items-center gap-2 pricing-feature-divider">
                         <XCircle className="h-4 w-4 text-muted-foreground" />
-                        <span className="text-muted-foreground">API development</span>
+                        <span className="text-muted-foreground">
+                          API development
+                        </span>
                       </li>
                       <li className="flex items-center gap-2">
                         <XCircle className="h-4 w-4 text-muted-foreground" />
-                        <span className="text-muted-foreground">Custom integrations</span>
+                        <span className="text-muted-foreground">
+                          Custom integrations
+                        </span>
                       </li>
                     </ul>
                   </CardContent>
@@ -612,10 +693,14 @@ export default function PricingPage() {
                       </Badge>
                     </div>
                     <CardTitle className="text-2xl">Business</CardTitle>
-                    <CardDescription>Comprehensive business software solutions</CardDescription>
-                    <div className="mt-4 flex items-baseline text-5xl font-bold">
-                      $50,000
-                      <span className="ml-1 text-sm font-normal text-muted-foreground">starting at</span>
+                    <CardDescription>
+                      Comprehensive business software solutions
+                    </CardDescription>
+                    <div className="mt-4 flex items-baseline text-4xl font-bold">
+                      Ksh.50,000
+                      <span className="ml-1 text-sm font-normal text-muted-foreground">
+                        starting at
+                      </span>
                     </div>
                   </CardHeader>
                   <CardContent className="pb-4">
@@ -664,10 +749,14 @@ export default function PricingPage() {
                       </Badge>
                     </div>
                     <CardTitle className="text-2xl">Enterprise</CardTitle>
-                    <CardDescription>Large-scale enterprise software solutions</CardDescription>
-                    <div className="mt-4 flex items-baseline text-5xl font-bold">
-                      $100,000+
-                      <span className="ml-1 text-sm font-normal text-muted-foreground">starting at</span>
+                    <CardDescription>
+                      Large-scale enterprise software solutions
+                    </CardDescription>
+                    <div className="mt-4 flex items-baseline text-4xl font-bold">
+                      Ksh.100,000+
+                      <span className="ml-1 text-sm font-normal text-muted-foreground">
+                        starting at
+                      </span>
                     </div>
                   </CardHeader>
                   <CardContent className="pb-4">
@@ -712,7 +801,9 @@ export default function PricingPage() {
 
               {/* Feature Comparison Table */}
               <div className="mt-16">
-                <h3 className="text-xl font-bold text-center mb-6">Detailed Feature Comparison</h3>
+                <h3 className="text-xl font-bold text-center mb-6">
+                  Detailed Feature Comparison
+                </h3>
                 <div className="overflow-x-auto">
                   <Table className="w-full comparison-table">
                     <TableHeader>
@@ -725,13 +816,17 @@ export default function PricingPage() {
                     </TableHeader>
                     <TableBody>
                       <TableRow>
-                        <TableCell className="font-medium">Workflow Automation</TableCell>
+                        <TableCell className="font-medium">
+                          Workflow Automation
+                        </TableCell>
                         <TableCell>Basic</TableCell>
                         <TableCell>Advanced</TableCell>
                         <TableCell>Complete</TableCell>
                       </TableRow>
                       <TableRow>
-                        <TableCell className="font-medium">User Roles</TableCell>
+                        <TableCell className="font-medium">
+                          User Roles
+                        </TableCell>
                         <TableCell>Up to 3</TableCell>
                         <TableCell>Up to 10</TableCell>
                         <TableCell>Unlimited</TableCell>
@@ -743,7 +838,9 @@ export default function PricingPage() {
                         <TableCell>Advanced with BI</TableCell>
                       </TableRow>
                       <TableRow>
-                        <TableCell className="font-medium">API Development</TableCell>
+                        <TableCell className="font-medium">
+                          API Development
+                        </TableCell>
                         <TableCell>
                           <XCircle className="h-4 w-4 text-muted-foreground mx-auto" />
                         </TableCell>
@@ -755,7 +852,9 @@ export default function PricingPage() {
                         </TableCell>
                       </TableRow>
                       <TableRow>
-                        <TableCell className="font-medium">System Integrations</TableCell>
+                        <TableCell className="font-medium">
+                          System Integrations
+                        </TableCell>
                         <TableCell>
                           <XCircle className="h-4 w-4 text-muted-foreground mx-auto" />
                         </TableCell>
@@ -763,19 +862,25 @@ export default function PricingPage() {
                         <TableCell>Advanced</TableCell>
                       </TableRow>
                       <TableRow>
-                        <TableCell className="font-medium">Security Features</TableCell>
+                        <TableCell className="font-medium">
+                          Security Features
+                        </TableCell>
                         <TableCell>Standard</TableCell>
                         <TableCell>Enhanced</TableCell>
                         <TableCell>High-level</TableCell>
                       </TableRow>
                       <TableRow>
-                        <TableCell className="font-medium">Scalability</TableCell>
+                        <TableCell className="font-medium">
+                          Scalability
+                        </TableCell>
                         <TableCell>Limited</TableCell>
                         <TableCell>Moderate</TableCell>
                         <TableCell>Enterprise-grade</TableCell>
                       </TableRow>
                       <TableRow>
-                        <TableCell className="font-medium">Support Period</TableCell>
+                        <TableCell className="font-medium">
+                          Support Period
+                        </TableCell>
                         <TableCell>3 months</TableCell>
                         <TableCell>6 months</TableCell>
                         <TableCell>12 months</TableCell>
@@ -794,7 +899,9 @@ export default function PricingPage() {
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Ongoing Support & Maintenance</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
+                Ongoing Support & Maintenance
+              </h2>
               <p className="max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Keep your software running smoothly with our maintenance plans.
               </p>
@@ -805,8 +912,10 @@ export default function PricingPage() {
               <CardHeader>
                 <CardTitle>Basic Support</CardTitle>
                 <div className="mt-4 flex items-baseline text-3xl font-bold">
-                  $499
-                  <span className="ml-1 text-sm font-normal text-muted-foreground">/month</span>
+                  Ksh.499
+                  <span className="ml-1 text-sm font-normal text-muted-foreground">
+                    /month
+                  </span>
                 </div>
               </CardHeader>
               <CardContent>
@@ -839,8 +948,10 @@ export default function PricingPage() {
               <CardHeader>
                 <CardTitle>Standard Support</CardTitle>
                 <div className="mt-4 flex items-baseline text-3xl font-bold">
-                  $999
-                  <span className="ml-1 text-sm font-normal text-muted-foreground">/month</span>
+                  Ksh.999
+                  <span className="ml-1 text-sm font-normal text-muted-foreground">
+                    /month
+                  </span>
                 </div>
               </CardHeader>
               <CardContent>
@@ -877,8 +988,10 @@ export default function PricingPage() {
               <CardHeader>
                 <CardTitle>Premium Support</CardTitle>
                 <div className="mt-4 flex items-baseline text-3xl font-bold">
-                  $1,999
-                  <span className="ml-1 text-sm font-normal text-muted-foreground">/month</span>
+                  Ksh.1,999
+                  <span className="ml-1 text-sm font-normal text-muted-foreground">
+                    /month
+                  </span>
                 </div>
               </CardHeader>
               <CardContent>
@@ -924,7 +1037,9 @@ export default function PricingPage() {
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Frequently Asked Questions</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
+                Frequently Asked Questions
+              </h2>
               <p className="max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Find answers to common questions about our pricing and services.
               </p>
@@ -958,7 +1073,8 @@ export default function PricingPage() {
                   "Yes, we can work with you to create a payment schedule that fits your budget. For larger projects, we typically use a milestone-based payment structure.",
               },
               {
-                question: "What happens if I need additional features after the project is complete?",
+                question:
+                  "What happens if I need additional features after the project is complete?",
                 answer:
                   "We can add new features to your existing software through our maintenance plans or as separate development projects. We provide quotes for additional features based on their complexity.",
               },
@@ -981,9 +1097,12 @@ export default function PricingPage() {
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Ready to Get Started?</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
+                Ready to Get Started?
+              </h2>
               <p className="max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Contact us today for a free consultation and custom quote tailored to your needs.
+                Contact us today for a free consultation and custom quote
+                tailored to your needs.
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -1001,6 +1120,5 @@ export default function PricingPage() {
         </div>
       </section>
     </div>
-  )
+  );
 }
-

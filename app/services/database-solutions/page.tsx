@@ -349,11 +349,11 @@ export default function DatabaseSolutionsPage() {
                 {[
                   {
                     name: "MySQL",
-                    logo: "/placeholder.svg?height=80&width=80&text=MySQL",
+                    logo: "/svg/MySQL.svg?height=80&width=80&text=MySQL",
                   },
                   {
                     name: "PostgreSQL",
-                    logo: "/placeholder.svg?height=80&width=80&text=PostgreSQL",
+                    logo: "/svg/PostgreSQL.svg?height=80&width=80&text=PostgreSQL",
                   },
                   {
                     name: "SQL Server",
@@ -361,7 +361,7 @@ export default function DatabaseSolutionsPage() {
                   },
                   {
                     name: "Oracle",
-                    logo: "/placeholder.svg?height=80&width=80&text=Oracle",
+                    logo: "/svg/Oracle.svg?height=80&width=80&text=Oracle",
                   },
                   {
                     name: "MariaDB",
@@ -369,7 +369,7 @@ export default function DatabaseSolutionsPage() {
                   },
                   {
                     name: "SQLite",
-                    logo: "/placeholder.svg?height=80&width=80&text=SQLite",
+                    logo: "/svg/SQLite.svg?height=80&width=80&text=SQLite",
                   },
                   {
                     name: "IBM Db2",
@@ -411,7 +411,7 @@ export default function DatabaseSolutionsPage() {
                 {[
                   {
                     name: "MongoDB",
-                    logo: "/placeholder.svg?height=80&width=80&text=MongoDB",
+                    logo: "/svg/MongoDB.svg?height=80&width=80&text=MongoDB",
                   },
                   {
                     name: "Cassandra",
@@ -419,19 +419,19 @@ export default function DatabaseSolutionsPage() {
                   },
                   {
                     name: "Redis",
-                    logo: "/placeholder.svg?height=80&width=80&text=Redis",
+                    logo: "/svg/Redis.svg?height=80&width=80&text=Redis",
                   },
                   {
                     name: "Elasticsearch",
-                    logo: "/placeholder.svg?height=80&width=80&text=Elasticsearch",
+                    logo: "/svg/Elastic-Search.svg?height=80&width=80&text=Elasticsearch",
                   },
                   {
                     name: "CouchDB",
-                    logo: "/placeholder.svg?height=80&width=80&text=CouchDB",
+                    logo: "/svg/CouchDB.svg?height=80&width=80&text=CouchDB",
                   },
                   {
                     name: "Neo4j",
-                    logo: "/placeholder.svg?height=80&width=80&text=Neo4j",
+                    logo: "/svg/New4j.svg?height=80&width=80&text=Neo4j",
                   },
                   {
                     name: "RavenDB",
@@ -447,7 +447,7 @@ export default function DatabaseSolutionsPage() {
                   },
                   {
                     name: "InfluxDB",
-                    logo: "/placeholder.svg?height=80&width=80&text=InfluxDB",
+                    logo: "/svg/InfluxDB.svg?height=80&width=80&text=InfluxDB",
                   },
                 ].map((tech, index) => (
                   <div
@@ -481,7 +481,7 @@ export default function DatabaseSolutionsPage() {
                   },
                   {
                     name: "Azure SQL",
-                    logo: "/placeholder.svg?height=80&width=80&text=Azure+SQL",
+                    logo: "/svg/Azure-SQL-Database.svg?height=80&width=80&text=Azure+SQL",
                   },
                   {
                     name: "Azure Cosmos DB",
@@ -497,7 +497,7 @@ export default function DatabaseSolutionsPage() {
                   },
                   {
                     name: "Firebase",
-                    logo: "/placeholder.svg?height=80&width=80&text=Firebase",
+                    logo: "/svg/Firebase.svg?height=80&width=80&text=Firebase",
                   },
                   {
                     name: "MongoDB Atlas",
@@ -505,7 +505,7 @@ export default function DatabaseSolutionsPage() {
                   },
                   {
                     name: "Supabase",
-                    logo: "/placeholder.svg?height=80&width=80&text=Supabase",
+                    logo: "/svg/Supabase.svg?height=80&width=80&text=Supabase",
                   },
                   {
                     name: "PlanetScale",

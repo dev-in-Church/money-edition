@@ -65,11 +65,11 @@ export default function ContactPage() {
                   <div>
                     <CardTitle className="text-base">Our Office</CardTitle>
                     <CardDescription className="mt-2">
-                      123 Tech Avenue, Suite 400
+                      Eldoret Daima Towers, 9th Floor
                       <br />
-                      San Francisco, CA 94107
+                      Eldoret, C39 94107
                       <br />
-                      United States
+                      Kenya
                     </CardDescription>
                   </div>
                 </CardContent>
@@ -81,10 +81,10 @@ export default function ContactPage() {
                     <CardTitle className="text-base">Phone</CardTitle>
                     <CardDescription className="mt-2">
                       <a
-                        href="tel:+15551234567"
+                        href="tel:+254795198141"
                         className="hover:text-primary transition-colors"
                       >
-                        +1 (555) 123-4567
+                        +254 795 198 141
                       </a>
                     </CardDescription>
                   </div>
@@ -152,7 +152,7 @@ export default function ContactPage() {
                     <Input
                       id="phone"
                       type="tel"
-                      placeholder="+1 (555) 123-4567"
+                      placeholder="+254 712 345 678"
                     />
                   </div>
                   <div className="grid gap-2">
