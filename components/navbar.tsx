@@ -102,7 +102,7 @@ const mainNavItems = [
         description: "eUNITA mission and values",
       },
       {
-        title: "eUNITA Team",
+        title: "Team eUNITA",
         href: "/about/team",
         icon: Users,
         description: "eUNITA professionals",
@@ -338,7 +338,7 @@ export default function Navbar() {
                     );
                   })}
                   <Button asChild className="mt-2">
-                    <Link href="/contact">Get a Quote</Link>
+                    <Link href="/gallery">Gallery</Link>
                   </Button>
                 </div>
                 <div className="mt-6 border-t pt-4">
