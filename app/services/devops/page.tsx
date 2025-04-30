@@ -352,7 +352,7 @@ export default function DevOpsPage() {
                 {[
                   {
                     name: "Jenkins",
-                    logo: "/placeholder.svg?height=80&width=80&text=Jenkins",
+                    logo: "/svg/Jenkins.svg?height=80&width=80&text=Jenkins",
                   },
                   {
                     name: "GitHub Actions",
@@ -364,15 +364,15 @@ export default function DevOpsPage() {
                   },
                   {
                     name: "CircleCI",
-                    logo: "/placeholder.svg?height=80&width=80&text=CircleCI",
+                    logo: "/svg/CircleCI.svg?height=80&width=80&text=CircleCI",
                   },
                   {
                     name: "Travis CI",
-                    logo: "/placeholder.svg?height=80&width=80&text=Travis+CI",
+                    logo: "/svg/Travis-CI.svg?height=80&width=80&text=Travis+CI",
                   },
                   {
                     name: "Azure DevOps",
-                    logo: "/placeholder.svg?height=80&width=80&text=Azure+DevOps",
+                    logo: "/svg/Azure-Devops.svg?height=80&width=80&text=Azure+DevOps",
                   },
                   {
                     name: "AWS CodePipeline",
@@ -380,7 +380,7 @@ export default function DevOpsPage() {
                   },
                   {
                     name: "Bamboo",
-                    logo: "/placeholder.svg?height=80&width=80&text=Bamboo",
+                    logo: "/svg/Bamboo.svg?height=80&width=80&text=Bamboo",
                   },
                   {
                     name: "TeamCity",
@@ -388,7 +388,7 @@ export default function DevOpsPage() {
                   },
                   {
                     name: "Argo CD",
-                    logo: "/placeholder.svg?height=80&width=80&text=Argo+CD",
+                    logo: "/svg/Argo-CD.svg?height=80&width=80&text=Argo+CD",
                   },
                 ].map((tech, index) => (
                   <div
@@ -414,19 +414,19 @@ export default function DevOpsPage() {
                 {[
                   {
                     name: "Docker",
-                    logo: "/placeholder.svg?height=80&width=80&text=Docker",
+                    logo: "/svg/Docker.svg?height=80&width=80&text=Docker",
                   },
                   {
                     name: "Kubernetes",
-                    logo: "/placeholder.svg?height=80&width=80&text=Kubernetes",
+                    logo: "/svg/Kubernetes.svg?height=80&width=80&text=Kubernetes",
                   },
                   {
                     name: "Helm",
-                    logo: "/placeholder.svg?height=80&width=80&text=Helm",
+                    logo: "/svg/Helm.svg?height=80&width=80&text=Helm",
                   },
                   {
                     name: "Podman",
-                    logo: "/placeholder.svg?height=80&width=80&text=Podman",
+                    logo: "/svg/podman.svg?height=80&width=80&text=Podman",
                   },
                   {
                     name: "OpenShift",
@@ -434,7 +434,7 @@ export default function DevOpsPage() {
                   },
                   {
                     name: "Rancher",
-                    logo: "/placeholder.svg?height=80&width=80&text=Rancher",
+                    logo: "/svg/Rancher.svg?height=80&width=80&text=Rancher",
                   },
                   {
                     name: "Docker Compose",
@@ -450,7 +450,7 @@ export default function DevOpsPage() {
                   },
                   {
                     name: "Ansible",
-                    logo: "/placeholder.svg?height=80&width=80&text=Ansible",
+                    logo: "/svg/Ansible.svg?height=80&width=80&text=Ansible",
                   },
                 ].map((tech, index) => (
                   <div
@@ -480,7 +480,7 @@ export default function DevOpsPage() {
                   },
                   {
                     name: "Grafana",
-                    logo: "/placeholder.svg?height=80&width=80&text=Grafana",
+                    logo: "/svg/Grafana.svg?height=80&width=80&text=Grafana",
                   },
                   {
                     name: "ELK Stack",

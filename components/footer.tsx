@@ -20,8 +20,13 @@ export default function Footer() {
         <div className="grid gap-8 md:grid-cols-2 lg:grid-cols-4">
           <div className="space-y-4">
             <div className="flex items-center gap-2">
-              <Layers className="h-6 w-6" />
-              <span className="font-bold">eUNITA</span>
+              {/* <Layers className="h-6 w-6" />
+              <span className="font-bold">eUNITA</span> */}
+              <img
+                src="/eunita_logo1.png"
+                alt="Eunita Logo"
+                className="h-16 w-auto object-contain"
+              />
             </div>
             <p className="text-sm text-muted-foreground">
               Transforming ideas into powerful software solutions. We build

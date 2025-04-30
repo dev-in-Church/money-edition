@@ -214,8 +214,13 @@ export default function Navbar() {
         <div className="container flex h-16 items-center justify-between">
           <div className="flex items-center">
             <Link href="/" className="mr-6 flex items-center space-x-2">
-              <Layers className="h-6 w-6 text-primary" />
-              <span className="hidden font-bold sm:inline-block">eUNITA</span>
+              {/* <Layers className="h-6 w-6 text-primary" />
+              <span className="hidden font-bold sm:inline-block">eUNITA</span> */}
+              <img
+                src="/eunita_logo1.png"
+                alt="Eunita Logo"
+                className="h-10 w-auto object-contain"
+              />
             </Link>
             <nav className="hidden md:flex md:gap-1 lg:gap-2">
               {mainNavItems.map((item, index) => {

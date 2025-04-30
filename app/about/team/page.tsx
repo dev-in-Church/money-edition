@@ -86,39 +86,41 @@ export default function TeamPage() {
                 name: "Emmanuel Ambundo",
                 position: "Chief Executive Officer",
                 bio: "Emmanuel has over 20 years of experience in the software industry. He founded eUNITA with a vision to create a company that delivers exceptional software while prioritizing both technical excellence and client satisfaction.",
-                image: "/placeholder.svg?height=400&width=400&text=John+Smith",
+                image: "/user2.jpg?height=400&width=400&text=John+Smith",
               },
               {
                 name: "Sarah Chen",
                 position: "Chief Technology Officer",
                 bio: "Sarah leads our technical strategy and ensures we stay at the forefront of technological advancements. With a background in computer science and 15 years of experience, she guides our engineering teams to deliver innovative solutions.",
-                image: "/placeholder.svg?height=400&width=400&text=Sarah+Chen",
+                image: "/user.jpg?height=400&width=400&text=Sarah+Chen",
               },
               {
                 name: "Michael Rodriguez",
                 position: "Chief Operations Officer",
                 bio: "Michael oversees our day-to-day operations and ensures we deliver projects on time and within budget. His background in project management and business administration helps us maintain operational excellence.",
                 image:
-                  "/placeholder.svg?height=400&width=400&text=Michael+Rodriguez",
+                  "/placeholder-user.jpg?height=400&width=400&text=Michael+Rodriguez",
               },
               {
                 name: "Emily Johnson",
                 position: "Chief Marketing Officer",
                 bio: "Emily leads our marketing and brand strategy. With over 12 years of experience in technology marketing, she helps us communicate our value proposition and connect with clients who can benefit from our services.",
                 image:
-                  "/placeholder.svg?height=400&width=400&text=Emily+Johnson",
+                  "/placeholder-user.jpg?height=400&width=400&text=Emily+Johnson",
               },
               {
                 name: "David Kim",
                 position: "Chief Financial Officer",
                 bio: "David manages our financial strategy and ensures the company's financial health. His background in finance and experience with technology companies provides valuable insights for our growth strategy.",
-                image: "/placeholder.svg?height=400&width=400&text=David+Kim",
+                image:
+                  "/placeholder-user.jpg?height=400&width=400&text=David+Kim",
               },
               {
                 name: "Lisa Patel",
                 position: "VP of Client Success",
                 bio: "Lisa ensures our clients receive exceptional service and achieve their business goals through our solutions. Her client-centric approach and problem-solving skills make her an invaluable asset to our team.",
-                image: "/placeholder.svg?height=400&width=400&text=Lisa+Patel",
+                image:
+                  "/placeholder-user.jpg?height=400&width=400&text=Lisa+Patel",
               },
             ].map((leader, index) => (
               <Card key={index} className="flex flex-col overflow-hidden">
@@ -183,7 +185,7 @@ export default function TeamPage() {
               <TabsList className="grid w-full max-w-md grid-cols-4">
                 <TabsTrigger value="engineering">Engineering</TabsTrigger>
                 <TabsTrigger value="design">Design</TabsTrigger>
-                <TabsTrigger value="pm">Project Management</TabsTrigger>
+                <TabsTrigger value="pm">Project</TabsTrigger>
                 <TabsTrigger value="qa">QA</TabsTrigger>
               </TabsList>
             </div>
@@ -229,7 +231,7 @@ export default function TeamPage() {
                   {[1, 2, 3, 4].map((i) => (
                     <div key={i} className="overflow-hidden rounded-lg">
                       <Image
-                        src={`/svg/Github.svg?height=200&width=200&text=Engineer+${i}`}
+                        src={`/user.jpg?height=200&width=200&text=Engineer+${i}`}
                         alt={`Engineer ${i}`}
                         width={200}
                         height={200}
@@ -281,7 +283,7 @@ export default function TeamPage() {
                   {[1, 2, 3, 4].map((i) => (
                     <div key={i} className="overflow-hidden rounded-lg">
                       <Image
-                        src={`/svg/Java.svg?height=200&width=200&text=Designer+${i}`}
+                        src={`/user.jpg?height=200&width=200&text=Designer+${i}`}
                         alt={`Designer ${i}`}
                         width={200}
                         height={200}
@@ -333,7 +335,7 @@ export default function TeamPage() {
                   {[1, 2, 3, 4].map((i) => (
                     <div key={i} className="overflow-hidden rounded-lg">
                       <Image
-                        src={`/svg/Javascript.svg?height=200&width=200&text=PM+${i}`}
+                        src={`/user.jpg?height=200&width=200&text=PM+${i}`}
                         alt={`Project Manager ${i}`}
                         width={200}
                         height={200}
@@ -387,7 +389,7 @@ export default function TeamPage() {
                   {[1, 2, 3, 4].map((i) => (
                     <div key={i} className="overflow-hidden rounded-lg">
                       <Image
-                        src={`/svg/Typescript.svg?height=200&width=200&text=QA+${i}`}
+                        src={`/user.jpg?height=200&width=200&text=QA+${i}`}
                         alt={`QA Engineer ${i}`}
                         width={200}
                         height={200}
@@ -441,7 +443,7 @@ export default function TeamPage() {
               {[1, 2, 3, 4].map((i) => (
                 <div key={i} className="overflow-hidden rounded-lg">
                   <Image
-                    src={`/svg/Ruby.svg?height=300&width=300&text=Culture+${i}`}
+                    src={`/user.jpg?height=300&width=300&text=Culture+${i}`}
                     alt={`Company Culture ${i}`}
                     width={300}
                     height={300}

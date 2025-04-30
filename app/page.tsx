@@ -109,7 +109,7 @@ export default function Home() {
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-4">
               <h2 className="text-xl font-medium tracking-tight">
-                Trusted by innovative companies worldwide
+                Trusted by world-class innovative companies
               </h2>
             </div>
             <div className="flex flex-wrap items-center justify-center gap-8 md:gap-12 lg:gap-16">
@@ -120,10 +120,10 @@ export default function Home() {
                 { image: "/svg/Twitter.svg" },
                 { image: "/svg/Google-Cloud.svg" },
                 { image: "/svg/Android.svg" },
-                { image: "/svg/Elixir.svg" },
+                { image: "/svg/microsoft.svg" },
                 { image: "/svg/Postman.svg" },
-                { image: "/svg/Sass.svg" },
-                { image: "/svg/Spring.svg" },
+                { image: "/svg/Facebook.svg" },
+                { image: "/svg/Sketch.svg" },
               ].map((i) => (
                 <div key={i.image} className="flex items-center justify-center">
                   <Image
@@ -464,7 +464,7 @@ export default function Home() {
                 Case Studies
               </div>
               <h2 className="text-3xl font-bold tracking-tighter sm:text-5xl">
-                Our Success Stories
+                Impact Highlights
               </h2>
               <p className="max-w-[900px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 See how we've helped businesses transform with custom software
@@ -747,21 +747,21 @@ export default function Home() {
                   "eUNITA transformed our business with their custom software. Their team was professional and delivered on time.",
                 author: "Sarah Johnson",
                 position: "CEO, TechCorp",
-                image: "/placeholder-user.jpg?height=100&width=100&text=SJ",
+                image: "/user.jpg?height=100&width=100&text=SJ",
               },
               {
                 quote:
                   "The mobile app they developed for us exceeded our expectations. User engagement has increased by 200% since launch.",
                 author: "Michael Chen",
                 position: "Product Manager, HealthPlus",
-                image: "/placeholder-user.jpg?height=100&width=100&text=MC",
+                image: "/user.jpg?height=100&width=100&text=MC",
               },
               {
                 quote:
                   "Their expertise in cloud migration saved us thousands in infrastructure costs. Highly recommended!",
                 author: "Emily Rodriguez",
                 position: "CTO, LogisticsPro",
-                image: "/placeholder-user.jpg?height=100&width=100&text=ER",
+                image: "/user.jpg?height=100&width=100&text=ER",
               },
             ].map((testimonial, index) => (
               <Card key={index} className="relative overflow-hidden">

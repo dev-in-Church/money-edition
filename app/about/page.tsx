@@ -499,21 +499,21 @@ export default function AboutPage() {
                   "eUNITA transformed our business with their custom software. Their team was professional and delivered on time.",
                 author: "Sarah Johnson",
                 position: "CEO, TechCorp",
-                image: "/placeholder.svg?height=100&width=100&text=SJ",
+                image: "/user.jpg?height=100&width=100&text=SJ",
               },
               {
                 quote:
                   "The mobile app they developed for us exceeded our expectations. User engagement has increased by 200% since launch.",
                 author: "Michael Chen",
                 position: "Product Manager, HealthPlus",
-                image: "/placeholder.svg?height=100&width=100&text=MC",
+                image: "/user.jpg?height=100&width=100&text=MC",
               },
               {
                 quote:
                   "Their expertise in cloud migration saved us thousands in infrastructure costs. Highly recommended!",
                 author: "Emily Rodriguez",
                 position: "CTO, LogisticsPro",
-                image: "/placeholder.svg?height=100&width=100&text=ER",
+                image: "/user.jpg?height=100&width=100&text=ER",
               },
             ].map((testimonial, index) => (
               <Card key={index} className="relative overflow-hidden">
