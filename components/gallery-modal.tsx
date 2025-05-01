@@ -122,7 +122,7 @@ export default function GalleryModal({
           <div className="w-full md:w-[350px] p-6 overflow-y-auto border-l">
             <div className="flex justify-between items-start mb-4">
               <h3 className="text-xl font-semibold">{currentImage.title}</h3>
-              <Button
+              {/* <Button
                 variant="ghost"
                 size="icon"
                 onClick={onClose}
@@ -130,7 +130,7 @@ export default function GalleryModal({
                 aria-label="Close dialog"
               >
                 <X className="h-4 w-4" />
-              </Button>
+              </Button> */}
             </div>
 
             <p className="text-muted-foreground mb-6">

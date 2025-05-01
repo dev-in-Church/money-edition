@@ -1,15 +1,29 @@
-"use client"
+"use client";
 
-import { useRouter } from "next/navigation"
-import Link from "next/link"
-import Image from "next/image"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
-import { ArrowRight, Calendar, Clock, Users, CheckCircle, BarChart, Award } from "lucide-react"
+import { useRouter } from "next/navigation";
+import Link from "next/link";
+import Image from "next/image";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import {
+  ArrowRight,
+  Calendar,
+  Clock,
+  Users,
+  CheckCircle,
+  BarChart,
+  Award,
+} from "lucide-react";
 
 export default function HealthcareAppCaseStudy() {
-  const router = useRouter()
+  const router = useRouter();
 
   // This would normally come from a database or API
   const caseStudy = {
@@ -27,32 +41,63 @@ export default function HealthcareAppCaseStudy() {
     duration: "8 months",
     client: "HealthPlus Medical Group",
     completionDate: "November 2022",
-    technologies: ["React Native", "Node.js", "PostgreSQL", "AWS", "Firebase", "Express", "OAuth 2.0"],
+    technologies: [
+      "React Native",
+      "Node.js",
+      "PostgreSQL",
+      "AWS",
+      "Firebase",
+      "Express",
+      "OAuth 2.0",
+    ],
     results: [
-      { icon: "chart", value: "40%", label: "Reduction in missed appointments" },
+      {
+        icon: "chart",
+        value: "40%",
+        label: "Reduction in missed appointments",
+      },
       { icon: "check", value: "65%", label: "Increase in patient engagement" },
       { icon: "award", value: "4.8/5", label: "App store rating" },
     ],
     testimonial: {
       quote:
-        "The mobile app developed by DevMatrix has revolutionized how we interact with patients. User engagement has increased by 200% since launch, and our administrative staff can now focus on providing better care instead of managing appointments.",
+        "The mobile app developed by eUNITA has revolutionized how we interact with patients. User engagement has increased by 200% since launch, and our administrative staff can now focus on providing better care instead of managing appointments.",
       author: "Michael Chen",
       position: "Product Manager, HealthPlus Medical Group",
       image: "/placeholder.svg?height=100&width=100&text=MC",
     },
     gallery: [
-      { url: "/placeholder.svg?height=400&width=600&text=Login+Screen", alt: "App login screen" },
-      { url: "/placeholder.svg?height=400&width=600&text=Appointment+Booking", alt: "Appointment booking interface" },
-      { url: "/placeholder.svg?height=400&width=600&text=Medical+Records", alt: "Medical records view" },
-      { url: "/placeholder.svg?height=400&width=600&text=Doctor+Chat", alt: "Doctor communication interface" },
-      { url: "/placeholder.svg?height=400&width=600&text=Prescription+Management", alt: "Prescription management" },
-      { url: "/placeholder.svg?height=400&width=600&text=Notifications", alt: "App notifications" },
+      {
+        url: "/placeholder.svg?height=400&width=600&text=Login+Screen",
+        alt: "App login screen",
+      },
+      {
+        url: "/placeholder.svg?height=400&width=600&text=Appointment+Booking",
+        alt: "Appointment booking interface",
+      },
+      {
+        url: "/placeholder.svg?height=400&width=600&text=Medical+Records",
+        alt: "Medical records view",
+      },
+      {
+        url: "/placeholder.svg?height=400&width=600&text=Doctor+Chat",
+        alt: "Doctor communication interface",
+      },
+      {
+        url: "/placeholder.svg?height=400&width=600&text=Prescription+Management",
+        alt: "Prescription management",
+      },
+      {
+        url: "/placeholder.svg?height=400&width=600&text=Notifications",
+        alt: "App notifications",
+      },
     ],
     relatedProjects: [
       {
         title: "Fitness Tracker App",
         category: "Mobile Development",
-        description: "Comprehensive fitness tracking app with workout plans, nutrition tracking, and social features.",
+        description:
+          "Comprehensive fitness tracking app with workout plans, nutrition tracking, and social features.",
         image: "/placeholder.svg?height=400&width=600&text=Fitness+App",
         slug: "fitness-tracker",
       },
@@ -67,12 +112,14 @@ export default function HealthcareAppCaseStudy() {
       {
         title: "Educational Platform",
         category: "Web Development",
-        description: "Online learning platform with course management, video streaming, and student progress tracking.",
-        image: "/placeholder.svg?height=400&width=600&text=Educational+Platform",
+        description:
+          "Online learning platform with course management, video streaming, and student progress tracking.",
+        image:
+          "/placeholder.svg?height=400&width=600&text=Educational+Platform",
         slug: "educational-platform",
       },
     ],
-  }
+  };
 
   return (
     <div className="flex flex-col">
@@ -85,7 +132,9 @@ export default function HealthcareAppCaseStudy() {
                 <Badge variant="outline" className="mb-2">
                   {caseStudy.category}
                 </Badge>
-                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">{caseStudy.title}</h1>
+                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+                  {caseStudy.title}
+                </h1>
                 <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   {caseStudy.description}
                 </p>
@@ -122,13 +171,19 @@ export default function HealthcareAppCaseStudy() {
         <div className="container px-4 md:px-6">
           <div className="mx-auto grid max-w-5xl items-start gap-12 lg:grid-cols-3">
             <div className="grid gap-4 lg:col-span-2">
-              <h2 className="text-3xl font-bold tracking-tighter">Project Overview</h2>
+              <h2 className="text-3xl font-bold tracking-tighter">
+                Project Overview
+              </h2>
               <p className="text-muted-foreground">{caseStudy.overview}</p>
 
-              <h3 className="text-2xl font-bold tracking-tighter mt-6">The Challenge</h3>
+              <h3 className="text-2xl font-bold tracking-tighter mt-6">
+                The Challenge
+              </h3>
               <p className="text-muted-foreground">{caseStudy.challenge}</p>
 
-              <h3 className="text-2xl font-bold tracking-tighter mt-6">Our Solution</h3>
+              <h3 className="text-2xl font-bold tracking-tighter mt-6">
+                Our Solution
+              </h3>
               <p className="text-muted-foreground">{caseStudy.solution}</p>
             </div>
             <div className="grid gap-4">
@@ -141,21 +196,27 @@ export default function HealthcareAppCaseStudy() {
                     <Calendar className="h-5 w-5 text-primary" />
                     <div>
                       <p className="text-sm font-medium">Project Duration</p>
-                      <p className="text-sm text-muted-foreground">{caseStudy.duration}</p>
+                      <p className="text-sm text-muted-foreground">
+                        {caseStudy.duration}
+                      </p>
                     </div>
                   </div>
                   <div className="flex items-center gap-2">
                     <Users className="h-5 w-5 text-primary" />
                     <div>
                       <p className="text-sm font-medium">Client</p>
-                      <p className="text-sm text-muted-foreground">{caseStudy.client}</p>
+                      <p className="text-sm text-muted-foreground">
+                        {caseStudy.client}
+                      </p>
                     </div>
                   </div>
                   <div className="flex items-center gap-2">
                     <Clock className="h-5 w-5 text-primary" />
                     <div>
                       <p className="text-sm font-medium">Completion Date</p>
-                      <p className="text-sm text-muted-foreground">{caseStudy.completionDate}</p>
+                      <p className="text-sm text-muted-foreground">
+                        {caseStudy.completionDate}
+                      </p>
                     </div>
                   </div>
                 </CardContent>
@@ -184,22 +245,38 @@ export default function HealthcareAppCaseStudy() {
         <div className="container px-4 md:px-6">
           <div className="mx-auto max-w-5xl space-y-6">
             <div className="space-y-2 text-center">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Results & Impact</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
+                Results & Impact
+              </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Measurable outcomes and business impact delivered by our solution.
+                Measurable outcomes and business impact delivered by our
+                solution.
               </p>
             </div>
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {caseStudy.results.map((result, index) => (
-                <Card key={index} className="flex flex-col items-center text-center">
+                <Card
+                  key={index}
+                  className="flex flex-col items-center text-center"
+                >
                   <CardHeader>
-                    {result.icon === "chart" && <BarChart className="h-12 w-12 text-primary" />}
-                    {result.icon === "check" && <CheckCircle className="h-12 w-12 text-primary" />}
-                    {result.icon === "award" && <Award className="h-12 w-12 text-primary" />}
+                    {result.icon === "chart" && (
+                      <BarChart className="h-12 w-12 text-primary" />
+                    )}
+                    {result.icon === "check" && (
+                      <CheckCircle className="h-12 w-12 text-primary" />
+                    )}
+                    {result.icon === "award" && (
+                      <Award className="h-12 w-12 text-primary" />
+                    )}
                   </CardHeader>
                   <CardContent>
-                    <CardTitle className="text-4xl font-bold">{result.value}</CardTitle>
-                    <CardDescription className="text-base">{result.label}</CardDescription>
+                    <CardTitle className="text-4xl font-bold">
+                      {result.value}
+                    </CardTitle>
+                    <CardDescription className="text-base">
+                      {result.label}
+                    </CardDescription>
                   </CardContent>
                 </Card>
               ))}
@@ -214,8 +291,12 @@ export default function HealthcareAppCaseStudy() {
           <div className="container px-4 md:px-6">
             <div className="mx-auto max-w-3xl text-center">
               <div className="relative">
-                <div className="absolute -left-4 -top-4 text-6xl text-primary/10">"</div>
-                <div className="absolute -bottom-4 -right-4 text-6xl text-primary/10">"</div>
+                <div className="absolute -left-4 -top-4 text-6xl text-primary/10">
+                  "
+                </div>
+                <div className="absolute -bottom-4 -right-4 text-6xl text-primary/10">
+                  "
+                </div>
                 <blockquote className="relative z-10 px-6 py-4 text-xl font-medium italic text-muted-foreground md:text-2xl">
                   {caseStudy.testimonial.quote}
                 </blockquote>
@@ -232,7 +313,9 @@ export default function HealthcareAppCaseStudy() {
                 </div>
                 <div className="text-left">
                   <p className="font-medium">{caseStudy.testimonial.author}</p>
-                  <p className="text-sm text-muted-foreground">{caseStudy.testimonial.position}</p>
+                  <p className="text-sm text-muted-foreground">
+                    {caseStudy.testimonial.position}
+                  </p>
                 </div>
               </div>
             </div>
@@ -245,7 +328,9 @@ export default function HealthcareAppCaseStudy() {
         <div className="container px-4 md:px-6">
           <div className="mx-auto max-w-5xl space-y-8">
             <div className="space-y-2 text-center">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Project Gallery</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
+                Project Gallery
+              </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Visual highlights from the {caseStudy.title} project.
               </p>
@@ -272,7 +357,9 @@ export default function HealthcareAppCaseStudy() {
         <div className="container px-4 md:px-6">
           <div className="mx-auto max-w-5xl space-y-8">
             <div className="space-y-2 text-center">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Related Projects</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
+                Related Projects
+              </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Explore more case studies similar to {caseStudy.title}.
               </p>
@@ -316,9 +403,12 @@ export default function HealthcareAppCaseStudy() {
         <div className="container px-4 md:px-6">
           <div className="mx-auto flex max-w-3xl flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Ready to Start Your Project?</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
+                Ready to Start Your Project?
+              </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Let's discuss how we can create a similar solution for your business needs.
+                Let's discuss how we can create a similar solution for your
+                business needs.
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -336,5 +426,5 @@ export default function HealthcareAppCaseStudy() {
         </div>
       </section>
     </div>
-  )
+  );
 }

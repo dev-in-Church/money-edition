@@ -7,7 +7,7 @@ import { Badge } from "@/components/ui/badge"
 import { ArrowRight } from "lucide-react"
 
 export const metadata = {
-  title: "Portfolio | DevMatrix Solutions",
+  title: "Portfolio | eUNITA",
   description: "Explore our portfolio of successful software development projects across various industries.",
 }
 

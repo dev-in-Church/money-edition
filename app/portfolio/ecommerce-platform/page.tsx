@@ -1,21 +1,36 @@
-"use client"
+"use client";
 
-import { useRouter } from "next/navigation"
-import Link from "next/link"
-import Image from "next/image"
-import { Button } from "@/components/ui/button"
-import { Card, CardContent, CardDescription, CardHeader, CardTitle } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
-import { ArrowRight, Calendar, Clock, Users, CheckCircle, BarChart, Award } from "lucide-react"
+import { useRouter } from "next/navigation";
+import Link from "next/link";
+import Image from "next/image";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardContent,
+  CardDescription,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
+import {
+  ArrowRight,
+  Calendar,
+  Clock,
+  Users,
+  CheckCircle,
+  BarChart,
+  Award,
+} from "lucide-react";
 
 export default function EcommercePlatformCaseStudy() {
-  const router = useRouter()
+  const router = useRouter();
 
   // This would normally come from a database or API
   const caseStudy = {
     title: "E-commerce Platform",
     category: "Web Development",
-    description: "A custom e-commerce solution with advanced inventory management for a retail chain.",
+    description:
+      "A custom e-commerce solution with advanced inventory management for a retail chain.",
     overview:
       "We developed a comprehensive e-commerce platform for a retail chain with over 50 physical stores. The solution included advanced inventory management, multi-channel sales integration, and a customer loyalty program.",
     challenge:
@@ -26,7 +41,15 @@ export default function EcommercePlatformCaseStudy() {
     duration: "6 months",
     client: "RetailGiant Inc.",
     completionDate: "March 2023",
-    technologies: ["React", "Node.js", "MongoDB", "Redux", "Express", "AWS", "Stripe"],
+    technologies: [
+      "React",
+      "Node.js",
+      "MongoDB",
+      "Redux",
+      "Express",
+      "AWS",
+      "Stripe",
+    ],
     results: [
       { icon: "chart", value: "150%", label: "Increase in online sales" },
       { icon: "check", value: "35%", label: "Reduction in inventory costs" },
@@ -34,25 +57,45 @@ export default function EcommercePlatformCaseStudy() {
     ],
     testimonial: {
       quote:
-        "The e-commerce platform developed by DevMatrix has transformed our retail business. Sales have increased by 150% in the first year, and our inventory management is now seamless across all channels.",
+        "The e-commerce platform developed by eUNITA has transformed our retail business. Sales have increased by 150% in the first year, and our inventory management is now seamless across all channels.",
       author: "David Wilson",
       position: "Director of Digital, RetailGiant Inc.",
       image: "/placeholder.svg?height=100&width=100&text=DW",
     },
     gallery: [
-      { url: "/placeholder.svg?height=400&width=600&text=Homepage", alt: "E-commerce homepage" },
-      { url: "/placeholder.svg?height=400&width=600&text=Product+Page", alt: "Product detail page" },
-      { url: "/placeholder.svg?height=400&width=600&text=Checkout", alt: "Checkout process" },
-      { url: "/placeholder.svg?height=400&width=600&text=Admin+Dashboard", alt: "Admin dashboard" },
-      { url: "/placeholder.svg?height=400&width=600&text=Inventory+Management", alt: "Inventory management" },
-      { url: "/placeholder.svg?height=400&width=600&text=Mobile+View", alt: "Mobile responsive design" },
+      {
+        url: "/placeholder.svg?height=400&width=600&text=Homepage",
+        alt: "E-commerce homepage",
+      },
+      {
+        url: "/placeholder.svg?height=400&width=600&text=Product+Page",
+        alt: "Product detail page",
+      },
+      {
+        url: "/placeholder.svg?height=400&width=600&text=Checkout",
+        alt: "Checkout process",
+      },
+      {
+        url: "/placeholder.svg?height=400&width=600&text=Admin+Dashboard",
+        alt: "Admin dashboard",
+      },
+      {
+        url: "/placeholder.svg?height=400&width=600&text=Inventory+Management",
+        alt: "Inventory management",
+      },
+      {
+        url: "/placeholder.svg?height=400&width=600&text=Mobile+View",
+        alt: "Mobile responsive design",
+      },
     ],
     relatedProjects: [
       {
         title: "Real Estate Platform",
         category: "Web Development",
-        description: "Property listing and management platform with virtual tours and agent portals.",
-        image: "/placeholder.svg?height=400&width=600&text=Real+Estate+Platform",
+        description:
+          "Property listing and management platform with virtual tours and agent portals.",
+        image:
+          "/placeholder.svg?height=400&width=600&text=Real+Estate+Platform",
         slug: "real-estate-platform",
       },
       {
@@ -66,12 +109,13 @@ export default function EcommercePlatformCaseStudy() {
       {
         title: "Cloud Migration",
         category: "Cloud Solutions",
-        description: "Migration of legacy systems to cloud infrastructure for a financial services company.",
+        description:
+          "Migration of legacy systems to cloud infrastructure for a financial services company.",
         image: "/placeholder.svg?height=400&width=600&text=Cloud+Migration",
         slug: "cloud-migration",
       },
     ],
-  }
+  };
 
   return (
     <div className="flex flex-col">
@@ -84,7 +128,9 @@ export default function EcommercePlatformCaseStudy() {
                 <Badge variant="outline" className="mb-2">
                   {caseStudy.category}
                 </Badge>
-                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">{caseStudy.title}</h1>
+                <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl">
+                  {caseStudy.title}
+                </h1>
                 <p className="max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                   {caseStudy.description}
                 </p>
@@ -121,13 +167,19 @@ export default function EcommercePlatformCaseStudy() {
         <div className="container px-4 md:px-6">
           <div className="mx-auto grid max-w-5xl items-start gap-12 lg:grid-cols-3">
             <div className="grid gap-4 lg:col-span-2">
-              <h2 className="text-3xl font-bold tracking-tighter">Project Overview</h2>
+              <h2 className="text-3xl font-bold tracking-tighter">
+                Project Overview
+              </h2>
               <p className="text-muted-foreground">{caseStudy.overview}</p>
 
-              <h3 className="text-2xl font-bold tracking-tighter mt-6">The Challenge</h3>
+              <h3 className="text-2xl font-bold tracking-tighter mt-6">
+                The Challenge
+              </h3>
               <p className="text-muted-foreground">{caseStudy.challenge}</p>
 
-              <h3 className="text-2xl font-bold tracking-tighter mt-6">Our Solution</h3>
+              <h3 className="text-2xl font-bold tracking-tighter mt-6">
+                Our Solution
+              </h3>
               <p className="text-muted-foreground">{caseStudy.solution}</p>
             </div>
             <div className="grid gap-4">
@@ -140,21 +192,27 @@ export default function EcommercePlatformCaseStudy() {
                     <Calendar className="h-5 w-5 text-primary" />
                     <div>
                       <p className="text-sm font-medium">Project Duration</p>
-                      <p className="text-sm text-muted-foreground">{caseStudy.duration}</p>
+                      <p className="text-sm text-muted-foreground">
+                        {caseStudy.duration}
+                      </p>
                     </div>
                   </div>
                   <div className="flex items-center gap-2">
                     <Users className="h-5 w-5 text-primary" />
                     <div>
                       <p className="text-sm font-medium">Client</p>
-                      <p className="text-sm text-muted-foreground">{caseStudy.client}</p>
+                      <p className="text-sm text-muted-foreground">
+                        {caseStudy.client}
+                      </p>
                     </div>
                   </div>
                   <div className="flex items-center gap-2">
                     <Clock className="h-5 w-5 text-primary" />
                     <div>
                       <p className="text-sm font-medium">Completion Date</p>
-                      <p className="text-sm text-muted-foreground">{caseStudy.completionDate}</p>
+                      <p className="text-sm text-muted-foreground">
+                        {caseStudy.completionDate}
+                      </p>
                     </div>
                   </div>
                 </CardContent>
@@ -183,22 +241,38 @@ export default function EcommercePlatformCaseStudy() {
         <div className="container px-4 md:px-6">
           <div className="mx-auto max-w-5xl space-y-6">
             <div className="space-y-2 text-center">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Results & Impact</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
+                Results & Impact
+              </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Measurable outcomes and business impact delivered by our solution.
+                Measurable outcomes and business impact delivered by our
+                solution.
               </p>
             </div>
             <div className="grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
               {caseStudy.results.map((result, index) => (
-                <Card key={index} className="flex flex-col items-center text-center">
+                <Card
+                  key={index}
+                  className="flex flex-col items-center text-center"
+                >
                   <CardHeader>
-                    {result.icon === "chart" && <BarChart className="h-12 w-12 text-primary" />}
-                    {result.icon === "check" && <CheckCircle className="h-12 w-12 text-primary" />}
-                    {result.icon === "award" && <Award className="h-12 w-12 text-primary" />}
+                    {result.icon === "chart" && (
+                      <BarChart className="h-12 w-12 text-primary" />
+                    )}
+                    {result.icon === "check" && (
+                      <CheckCircle className="h-12 w-12 text-primary" />
+                    )}
+                    {result.icon === "award" && (
+                      <Award className="h-12 w-12 text-primary" />
+                    )}
                   </CardHeader>
                   <CardContent>
-                    <CardTitle className="text-4xl font-bold">{result.value}</CardTitle>
-                    <CardDescription className="text-base">{result.label}</CardDescription>
+                    <CardTitle className="text-4xl font-bold">
+                      {result.value}
+                    </CardTitle>
+                    <CardDescription className="text-base">
+                      {result.label}
+                    </CardDescription>
                   </CardContent>
                 </Card>
               ))}
@@ -213,8 +287,12 @@ export default function EcommercePlatformCaseStudy() {
           <div className="container px-4 md:px-6">
             <div className="mx-auto max-w-3xl text-center">
               <div className="relative">
-                <div className="absolute -left-4 -top-4 text-6xl text-primary/10">"</div>
-                <div className="absolute -bottom-4 -right-4 text-6xl text-primary/10">"</div>
+                <div className="absolute -left-4 -top-4 text-6xl text-primary/10">
+                  "
+                </div>
+                <div className="absolute -bottom-4 -right-4 text-6xl text-primary/10">
+                  "
+                </div>
                 <blockquote className="relative z-10 px-6 py-4 text-xl font-medium italic text-muted-foreground md:text-2xl">
                   {caseStudy.testimonial.quote}
                 </blockquote>
@@ -231,7 +309,9 @@ export default function EcommercePlatformCaseStudy() {
                 </div>
                 <div className="text-left">
                   <p className="font-medium">{caseStudy.testimonial.author}</p>
-                  <p className="text-sm text-muted-foreground">{caseStudy.testimonial.position}</p>
+                  <p className="text-sm text-muted-foreground">
+                    {caseStudy.testimonial.position}
+                  </p>
                 </div>
               </div>
             </div>
@@ -244,7 +324,9 @@ export default function EcommercePlatformCaseStudy() {
         <div className="container px-4 md:px-6">
           <div className="mx-auto max-w-5xl space-y-8">
             <div className="space-y-2 text-center">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Project Gallery</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
+                Project Gallery
+              </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Visual highlights from the {caseStudy.title} project.
               </p>
@@ -271,7 +353,9 @@ export default function EcommercePlatformCaseStudy() {
         <div className="container px-4 md:px-6">
           <div className="mx-auto max-w-5xl space-y-8">
             <div className="space-y-2 text-center">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Related Projects</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
+                Related Projects
+              </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
                 Explore more case studies similar to {caseStudy.title}.
               </p>
@@ -315,9 +399,12 @@ export default function EcommercePlatformCaseStudy() {
         <div className="container px-4 md:px-6">
           <div className="mx-auto flex max-w-3xl flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Ready to Start Your Project?</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
+                Ready to Start Your Project?
+              </h2>
               <p className="mx-auto max-w-[600px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Let's discuss how we can create a similar solution for your business needs.
+                Let's discuss how we can create a similar solution for your
+                business needs.
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -335,5 +422,5 @@ export default function EcommercePlatformCaseStudy() {
         </div>
       </section>
     </div>
-  )
+  );
 }

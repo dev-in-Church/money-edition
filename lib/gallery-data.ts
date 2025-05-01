@@ -204,7 +204,7 @@ export const galleryImages: GalleryImage[] = [
     title: "Development Environment",
     description:
       "Modern development workstation setup with multiple monitors for optimal productivity.",
-    src: "/placeholder.svg?height=800&width=1200",
+    src: "/gallery/image1.jpg?height=800&width=1200",
     category: "technology",
     date: "2023-01-20",
     tags: ["workstation", "development", "hardware"],
@@ -214,7 +214,7 @@ export const galleryImages: GalleryImage[] = [
     title: "Testing Lab",
     description:
       "Our quality assurance testing lab with various devices for cross-platform testing.",
-    src: "/placeholder.svg?height=800&width=1200",
+    src: "/gallery/image.jpg?height=800&width=1200",
     category: "technology",
     date: "2022-12-05",
     location: "QA Department",
@@ -225,7 +225,7 @@ export const galleryImages: GalleryImage[] = [
     title: "Network Operations Center",
     description:
       "24/7 monitoring center for client applications and infrastructure.",
-    src: "/placeholder.svg?height=800&width=1200",
+    src: "/gallery/image1_2.jpg?height=800&width=1200",
     category: "technology",
     date: "2022-11-10",
     location: "Operations Floor",
@@ -238,7 +238,7 @@ export const galleryImages: GalleryImage[] = [
     title: "Developer Workspace",
     description:
       "Ergonomic developer workstation designed for productivity and comfort.",
-    src: "/placeholder.svg?height=800&width=1200",
+    src: "/gallery/image0.jpg?height=800&width=1200",
     category: "workspace",
     date: "2023-03-05",
     location: "Engineering Department",
@@ -249,7 +249,7 @@ export const galleryImages: GalleryImage[] = [
     title: "Design Studio",
     description:
       "Creative space for our design team with drawing tablets and visualization tools.",
-    src: "/placeholder.svg?height=800&width=1200",
+    src: "/gallery/image1_.jpg?height=800&width=1200",
     category: "workspace",
     date: "2023-02-18",
     location: "Design Department",
@@ -259,7 +259,7 @@ export const galleryImages: GalleryImage[] = [
     id: "workspace-3",
     title: "Quiet Focus Pods",
     description: "Individual focus pods for deep work and concentration.",
-    src: "/placeholder.svg?height=800&width=1200",
+    src: "/gallery/image0_0.jpg?height=800&width=1200",
     category: "workspace",
     date: "2023-01-25",
     location: "All Floors",
@@ -270,7 +270,7 @@ export const galleryImages: GalleryImage[] = [
     title: "Brainstorming Room",
     description:
       "Dedicated space for creative thinking and problem-solving with interactive whiteboards.",
-    src: "/placeholder.svg?height=800&width=1200",
+    src: "/gallery/image10.jpg?height=800&width=1200",
     category: "workspace",
     date: "2022-12-15",
     location: "Innovation Center",
