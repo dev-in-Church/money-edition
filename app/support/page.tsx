@@ -253,7 +253,7 @@ export default function SupportPage() {
                       description:
                         "Learn how to create and configure your account for the first time.",
                       image:
-                        "/placeholder.svg?height=200&width=300&text=Account+Setup",
+                        "/eunita_ph.jpg?height=200&width=300&text=Account+Setup",
                       link: "#",
                     },
                     {
@@ -261,7 +261,7 @@ export default function SupportPage() {
                       description:
                         "Get familiar with our platform's interface and key features.",
                       image:
-                        "/placeholder.svg?height=200&width=300&text=Platform+Overview",
+                        "/eunita_ph.jpg?height=200&width=300&text=Platform+Overview",
                       link: "#",
                     },
                     {
@@ -269,7 +269,7 @@ export default function SupportPage() {
                       description:
                         "Learn how to add, edit, and manage user permissions.",
                       image:
-                        "/placeholder.svg?height=200&width=300&text=User+Management",
+                        "/eunita_ph.jpg?height=200&width=300&text=User+Management",
                       link: "#",
                     },
                     {
@@ -277,14 +277,14 @@ export default function SupportPage() {
                       description:
                         "Understand how to integrate our software with your existing systems.",
                       image:
-                        "/placeholder.svg?height=200&width=300&text=Integration+Basics",
+                        "/eunita_ph.jpg?height=200&width=300&text=Integration+Basics",
                       link: "#",
                     },
                   ].map((article, index) => (
                     <Card key={index} className="overflow-hidden">
                       <div className="aspect-[3/2] overflow-hidden">
                         <Image
-                          src={article.image || "/placeholder.svg"}
+                          src={article.image || "/eunita_ph.jpg"}
                           alt={article.title}
                           width={300}
                           height={200}
@@ -317,7 +317,7 @@ export default function SupportPage() {
                       description:
                         "Step-by-step guide to creating and configuring a new project.",
                       image:
-                        "/placeholder.svg?height=200&width=300&text=First+Project",
+                        "/eunita_ph.jpg?height=200&width=300&text=First+Project",
                       link: "#",
                     },
                     {
@@ -325,7 +325,7 @@ export default function SupportPage() {
                       description:
                         "Learn how to create custom reports and dashboards.",
                       image:
-                        "/placeholder.svg?height=200&width=300&text=Advanced+Reporting",
+                        "/eunita_ph.jpg?height=200&width=300&text=Advanced+Reporting",
                       link: "#",
                     },
                     {
@@ -333,7 +333,7 @@ export default function SupportPage() {
                       description:
                         "Set up automated workflows to streamline your processes.",
                       image:
-                        "/placeholder.svg?height=200&width=300&text=Workflow+Automation",
+                        "/eunita_ph.jpg?height=200&width=300&text=Workflow+Automation",
                       link: "#",
                     },
                     {
@@ -341,14 +341,14 @@ export default function SupportPage() {
                       description:
                         "Learn how to import and export data in various formats.",
                       image:
-                        "/placeholder.svg?height=200&width=300&text=Data+Import+Export",
+                        "/eunita_ph.jpg?height=200&width=300&text=Data+Import+Export",
                       link: "#",
                     },
                   ].map((article, index) => (
                     <Card key={index} className="overflow-hidden">
                       <div className="aspect-[3/2] overflow-hidden">
                         <Image
-                          src={article.image || "/placeholder.svg"}
+                          src={article.image || "/eunita_ph.jpg"}
                           alt={article.title}
                           width={300}
                           height={200}
@@ -381,7 +381,7 @@ export default function SupportPage() {
                       description:
                         "Explanations and solutions for frequently encountered error messages.",
                       image:
-                        "/placeholder.svg?height=200&width=300&text=Error+Messages",
+                        "/eunita_ph.jpg?height=200&width=300&text=Error+Messages",
                       link: "#",
                     },
                     {
@@ -389,7 +389,7 @@ export default function SupportPage() {
                       description:
                         "Tips to improve the performance of your application.",
                       image:
-                        "/placeholder.svg?height=200&width=300&text=Performance",
+                        "/eunita_ph.jpg?height=200&width=300&text=Performance",
                       link: "#",
                     },
                     {
@@ -397,7 +397,7 @@ export default function SupportPage() {
                       description:
                         "Troubleshoot and resolve common connection problems.",
                       image:
-                        "/placeholder.svg?height=200&width=300&text=Connection+Issues",
+                        "/eunita_ph.jpg?height=200&width=300&text=Connection+Issues",
                       link: "#",
                     },
                     {
@@ -405,14 +405,14 @@ export default function SupportPage() {
                       description:
                         "Learn how to recover lost or corrupted data.",
                       image:
-                        "/placeholder.svg?height=200&width=300&text=Data+Recovery",
+                        "/eunita_ph.jpg?height=200&width=300&text=Data+Recovery",
                       link: "#",
                     },
                   ].map((article, index) => (
                     <Card key={index} className="overflow-hidden">
                       <div className="aspect-[3/2] overflow-hidden">
                         <Image
-                          src={article.image || "/placeholder.svg"}
+                          src={article.image || "/eunita_ph.jpg"}
                           alt={article.title}
                           width={300}
                           height={200}

@@ -367,23 +367,23 @@ export default function MobileDevelopmentPage() {
                   },
                   // {
                   //   name: "Core Data",
-                  //   logo: "/placeholder.svg?height=80&width=80&text=Core+Data",
+                  //   logo: "/eunita_ph.jpg?height=80&width=80&text=Core+Data",
                   // },
                   // {
                   //   name: "ARKit",
-                  //   logo: "/placeholder.svg?height=80&width=80&text=ARKit",
+                  //   logo: "/eunita_ph.jpg?height=80&width=80&text=ARKit",
                   // },
                   // {
                   //   name: "CoreML",
-                  //   logo: "/placeholder.svg?height=80&width=80&text=CoreML",
+                  //   logo: "/eunita_ph.jpg?height=80&width=80&text=CoreML",
                   // },
                   // {
                   //   name: "WidgetKit",
-                  //   logo: "/placeholder.svg?height=80&width=80&text=WidgetKit",
+                  //   logo: "/eunita_ph.jpg?height=80&width=80&text=WidgetKit",
                   // },
                   // {
                   //   name: "CloudKit",
-                  //   logo: "/placeholder.svg?height=80&width=80&text=CloudKit",
+                  //   logo: "/eunita_ph.jpg?height=80&width=80&text=CloudKit",
                   // },
                   {
                     name: "TestFlight",
@@ -396,7 +396,7 @@ export default function MobileDevelopmentPage() {
                   >
                     <div className="h-20 w-20">
                       <Image
-                        src={tech.logo || "/placeholder.svg"}
+                        src={tech.logo || "/eunita_ph.jpg"}
                         alt={tech.name}
                         width={80}
                         height={80}
@@ -429,15 +429,15 @@ export default function MobileDevelopmentPage() {
                   },
                   // {
                   //   name: "Room",
-                  //   logo: "/placeholder.svg?height=80&width=80&text=Room",
+                  //   logo: "/eunita_ph.jpg?height=80&width=80&text=Room",
                   // },
                   // {
                   //   name: "Retrofit",
-                  //   logo: "/placeholder.svg?height=80&width=80&text=Retrofit",
+                  //   logo: "/eunita_ph.jpg?height=80&width=80&text=Retrofit",
                   // },
                   // {
                   //   name: "Dagger/Hilt",
-                  //   logo: "/placeholder.svg?height=80&width=80&text=Dagger",
+                  //   logo: "/eunita_ph.jpg?height=80&width=80&text=Dagger",
                   // },
                   {
                     name: "Firebase",
@@ -458,7 +458,7 @@ export default function MobileDevelopmentPage() {
                   >
                     <div className="h-20 w-20">
                       <Image
-                        src={tech.logo || "/placeholder.svg"}
+                        src={tech.logo || "/eunita_ph.jpg"}
                         alt={tech.name}
                         width={80}
                         height={80}
@@ -520,7 +520,7 @@ export default function MobileDevelopmentPage() {
                   >
                     <div className="h-20 w-20">
                       <Image
-                        src={tech.logo || "/placeholder.svg"}
+                        src={tech.logo || "/eunita_ph.jpg"}
                         alt={tech.name}
                         width={80}
                         height={80}
@@ -622,14 +622,14 @@ export default function MobileDevelopmentPage() {
                 description:
                   "Patient management app for a leading healthcare provider with appointment scheduling.",
                 image:
-                  "/placeholder.svg?height=400&width=600&text=Healthcare+App",
+                  "/eunita_ph.jpg?height=400&width=600&text=Healthcare+App",
               },
               {
                 title: "Fitness Tracker",
                 category: "Cross-Platform",
                 description:
                   "Comprehensive fitness tracking app with workout plans and nutrition tracking.",
-                image: "/placeholder.svg?height=400&width=600&text=Fitness+App",
+                image: "/eunita_ph.jpg?height=400&width=600&text=Fitness+App",
               },
               {
                 title: "E-commerce Mobile App",
@@ -637,13 +637,13 @@ export default function MobileDevelopmentPage() {
                 description:
                   "Feature-rich shopping app with personalized recommendations and secure checkout.",
                 image:
-                  "/placeholder.svg?height=400&width=600&text=E-commerce+App",
+                  "/eunita_ph.jpg?height=400&width=600&text=E-commerce+App",
               },
             ].map((project, index) => (
               <Card key={index} className="overflow-hidden">
                 <div className="aspect-video overflow-hidden">
                   <Image
-                    src={project.image || "/placeholder.svg"}
+                    src={project.image || "/eunita_ph.jpg"}
                     alt={project.title}
                     width={600}
                     height={400}

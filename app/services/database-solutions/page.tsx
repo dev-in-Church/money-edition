@@ -357,7 +357,7 @@ export default function DatabaseSolutionsPage() {
                   },
                   {
                     name: "SQL Server",
-                    logo: "/placeholder.svg?height=80&width=80&text=SQL+Server",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=SQL+Server",
                   },
                   {
                     name: "Oracle",
@@ -365,7 +365,7 @@ export default function DatabaseSolutionsPage() {
                   },
                   {
                     name: "MariaDB",
-                    logo: "/placeholder.svg?height=80&width=80&text=MariaDB",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=MariaDB",
                   },
                   {
                     name: "SQLite",
@@ -373,19 +373,19 @@ export default function DatabaseSolutionsPage() {
                   },
                   {
                     name: "IBM Db2",
-                    logo: "/placeholder.svg?height=80&width=80&text=IBM+Db2",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=IBM+Db2",
                   },
                   {
                     name: "SAP HANA",
-                    logo: "/placeholder.svg?height=80&width=80&text=SAP+HANA",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=SAP+HANA",
                   },
                   {
                     name: "Teradata",
-                    logo: "/placeholder.svg?height=80&width=80&text=Teradata",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=Teradata",
                   },
                   {
                     name: "Snowflake",
-                    logo: "/placeholder.svg?height=80&width=80&text=Snowflake",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=Snowflake",
                   },
                 ].map((tech, index) => (
                   <div
@@ -394,7 +394,7 @@ export default function DatabaseSolutionsPage() {
                   >
                     <div className="h-20 w-20">
                       <Image
-                        src={tech.logo || "/placeholder.svg"}
+                        src={tech.logo || "/eunita_ph.jpg"}
                         alt={tech.name}
                         width={80}
                         height={80}
@@ -415,7 +415,7 @@ export default function DatabaseSolutionsPage() {
                   },
                   {
                     name: "Cassandra",
-                    logo: "/placeholder.svg?height=80&width=80&text=Cassandra",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=Cassandra",
                   },
                   {
                     name: "Redis",
@@ -435,15 +435,15 @@ export default function DatabaseSolutionsPage() {
                   },
                   {
                     name: "RavenDB",
-                    logo: "/placeholder.svg?height=80&width=80&text=RavenDB",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=RavenDB",
                   },
                   {
                     name: "HBase",
-                    logo: "/placeholder.svg?height=80&width=80&text=HBase",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=HBase",
                   },
                   {
                     name: "Couchbase",
-                    logo: "/placeholder.svg?height=80&width=80&text=Couchbase",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=Couchbase",
                   },
                   {
                     name: "InfluxDB",
@@ -456,7 +456,7 @@ export default function DatabaseSolutionsPage() {
                   >
                     <div className="h-20 w-20">
                       <Image
-                        src={tech.logo || "/placeholder.svg"}
+                        src={tech.logo || "/eunita_ph.jpg"}
                         alt={tech.name}
                         width={80}
                         height={80}
@@ -473,11 +473,11 @@ export default function DatabaseSolutionsPage() {
                 {[
                   {
                     name: "Amazon RDS",
-                    logo: "/placeholder.svg?height=80&width=80&text=Amazon+RDS",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=Amazon+RDS",
                   },
                   {
                     name: "Amazon DynamoDB",
-                    logo: "/placeholder.svg?height=80&width=80&text=DynamoDB",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=DynamoDB",
                   },
                   {
                     name: "Azure SQL",
@@ -485,15 +485,15 @@ export default function DatabaseSolutionsPage() {
                   },
                   {
                     name: "Azure Cosmos DB",
-                    logo: "/placeholder.svg?height=80&width=80&text=Cosmos+DB",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=Cosmos+DB",
                   },
                   {
                     name: "Google Cloud SQL",
-                    logo: "/placeholder.svg?height=80&width=80&text=Cloud+SQL",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=Cloud+SQL",
                   },
                   {
                     name: "Google Firestore",
-                    logo: "/placeholder.svg?height=80&width=80&text=Firestore",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=Firestore",
                   },
                   {
                     name: "Firebase",
@@ -501,7 +501,7 @@ export default function DatabaseSolutionsPage() {
                   },
                   {
                     name: "MongoDB Atlas",
-                    logo: "/placeholder.svg?height=80&width=80&text=MongoDB+Atlas",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=MongoDB+Atlas",
                   },
                   {
                     name: "Supabase",
@@ -509,7 +509,7 @@ export default function DatabaseSolutionsPage() {
                   },
                   {
                     name: "PlanetScale",
-                    logo: "/placeholder.svg?height=80&width=80&text=PlanetScale",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=PlanetScale",
                   },
                 ].map((tech, index) => (
                   <div
@@ -518,7 +518,7 @@ export default function DatabaseSolutionsPage() {
                   >
                     <div className="h-20 w-20">
                       <Image
-                        src={tech.logo || "/placeholder.svg"}
+                        src={tech.logo || "/eunita_ph.jpg"}
                         alt={tech.name}
                         width={80}
                         height={80}
@@ -620,7 +620,7 @@ export default function DatabaseSolutionsPage() {
                 description:
                   "Centralized data warehouse for a healthcare provider with HIPAA compliance.",
                 image:
-                  "/placeholder.svg?height=400&width=600&text=Healthcare+Data",
+                  "/eunita_ph.jpg?height=400&width=600&text=Healthcare+Data",
               },
               {
                 title: "E-commerce Database Migration",
@@ -628,7 +628,7 @@ export default function DatabaseSolutionsPage() {
                 description:
                   "Seamless migration from legacy system to modern cloud database for an online retailer.",
                 image:
-                  "/placeholder.svg?height=400&width=600&text=E-commerce+Migration",
+                  "/eunita_ph.jpg?height=400&width=600&text=E-commerce+Migration",
               },
               {
                 title: "Financial Analytics Platform",
@@ -636,13 +636,13 @@ export default function DatabaseSolutionsPage() {
                 description:
                   "High-performance database solution for real-time financial analytics.",
                 image:
-                  "/placeholder.svg?height=400&width=600&text=Financial+Analytics",
+                  "/eunita_ph.jpg?height=400&width=600&text=Financial+Analytics",
               },
             ].map((project, index) => (
               <Card key={index} className="overflow-hidden">
                 <div className="aspect-video overflow-hidden">
                   <Image
-                    src={project.image || "/placeholder.svg"}
+                    src={project.image || "/eunita_ph.jpg"}
                     alt={project.title}
                     width={600}
                     height={400}

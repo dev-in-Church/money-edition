@@ -1,15 +1,22 @@
-import Link from "next/link"
-import Image from "next/image"
-import { Button } from "@/components/ui/button"
-import { Card, CardDescription, CardFooter, CardHeader, CardTitle } from "@/components/ui/card"
-import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs"
-import { Badge } from "@/components/ui/badge"
-import { ArrowRight } from "lucide-react"
+import Link from "next/link";
+import Image from "next/image";
+import { Button } from "@/components/ui/button";
+import {
+  Card,
+  CardDescription,
+  CardFooter,
+  CardHeader,
+  CardTitle,
+} from "@/components/ui/card";
+import { Tabs, TabsContent, TabsList, TabsTrigger } from "@/components/ui/tabs";
+import { Badge } from "@/components/ui/badge";
+import { ArrowRight } from "lucide-react";
 
 export const metadata = {
   title: "Portfolio | eUNITA",
-  description: "Explore our portfolio of successful software development projects across various industries.",
-}
+  description:
+    "Explore our portfolio of successful software development projects across various industries.",
+};
 
 export default function Portfolio() {
   return (
@@ -19,10 +26,12 @@ export default function Portfolio() {
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">Our Portfolio</h1>
+              <h1 className="text-3xl font-bold tracking-tighter sm:text-5xl">
+                Our Portfolio
+              </h1>
               <p className="max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Explore our successful projects and see how we've helped businesses transform with custom software
-                solutions.
+                Explore our successful projects and see how we've helped
+                businesses transform with custom software solutions.
               </p>
             </div>
           </div>
@@ -38,7 +47,9 @@ export default function Portfolio() {
                 <TabsTrigger value="all">All Projects</TabsTrigger>
                 <TabsTrigger value="web">Web Development</TabsTrigger>
                 <TabsTrigger value="mobile">Mobile Apps</TabsTrigger>
-                <TabsTrigger value="enterprise">Enterprise Software</TabsTrigger>
+                <TabsTrigger value="enterprise">
+                  Enterprise Software
+                </TabsTrigger>
                 <TabsTrigger value="cloud">Cloud Solutions</TabsTrigger>
               </TabsList>
             </div>
@@ -50,8 +61,10 @@ export default function Portfolio() {
                   {
                     title: "E-commerce Platform",
                     category: "Web Development",
-                    description: "A custom e-commerce solution with advanced inventory management for a retail chain.",
-                    image: "/placeholder.svg?height=400&width=600&text=E-commerce+Platform",
+                    description:
+                      "A custom e-commerce solution with advanced inventory management for a retail chain.",
+                    image:
+                      "/eunita_ph.jpg?height=400&width=600&text=E-commerce+Platform",
                     slug: "ecommerce-platform",
                   },
                   {
@@ -59,7 +72,8 @@ export default function Portfolio() {
                     category: "Mobile Development",
                     description:
                       "Patient management app for a leading healthcare provider with appointment scheduling and medical records.",
-                    image: "/placeholder.svg?height=400&width=600&text=Healthcare+App",
+                    image:
+                      "/eunita_ph.jpg?height=400&width=600&text=Healthcare+App",
                     slug: "healthcare-app",
                   },
                   {
@@ -67,7 +81,8 @@ export default function Portfolio() {
                     category: "Enterprise Software",
                     description:
                       "Real-time financial analytics dashboard for an investment firm with data visualization and reporting.",
-                    image: "/placeholder.svg?height=400&width=600&text=Financial+Dashboard",
+                    image:
+                      "/eunita_ph.jpg?height=400&width=600&text=Financial+Dashboard",
                     slug: "financial-dashboard",
                   },
                   {
@@ -75,14 +90,17 @@ export default function Portfolio() {
                     category: "Enterprise Software",
                     description:
                       "End-to-end logistics and supply chain management system for a global shipping company.",
-                    image: "/placeholder.svg?height=400&width=600&text=Logistics+System",
+                    image:
+                      "/eunita_ph.jpg?height=400&width=600&text=Logistics+System",
                     slug: "logistics-management",
                   },
                   {
                     title: "Real Estate Platform",
                     category: "Web Development",
-                    description: "Property listing and management platform with virtual tours and agent portals.",
-                    image: "/placeholder.svg?height=400&width=600&text=Real+Estate+Platform",
+                    description:
+                      "Property listing and management platform with virtual tours and agent portals.",
+                    image:
+                      "/eunita_ph.jpg?height=400&width=600&text=Real+Estate+Platform",
                     slug: "real-estate-platform",
                   },
                   {
@@ -90,7 +108,8 @@ export default function Portfolio() {
                     category: "Mobile Development",
                     description:
                       "Comprehensive fitness tracking app with workout plans, nutrition tracking, and social features.",
-                    image: "/placeholder.svg?height=400&width=600&text=Fitness+App",
+                    image:
+                      "/eunita_ph.jpg?height=400&width=600&text=Fitness+App",
                     slug: "fitness-tracker",
                   },
                   {
@@ -98,7 +117,8 @@ export default function Portfolio() {
                     category: "Cloud Solutions",
                     description:
                       "Migration of legacy systems to cloud infrastructure for a financial services company.",
-                    image: "/placeholder.svg?height=400&width=600&text=Cloud+Migration",
+                    image:
+                      "/eunita_ph.jpg?height=400&width=600&text=Cloud+Migration",
                     slug: "cloud-migration",
                   },
                   {
@@ -106,7 +126,8 @@ export default function Portfolio() {
                     category: "Enterprise Software",
                     description:
                       "Comprehensive inventory system for a manufacturing company with barcode scanning and forecasting.",
-                    image: "/placeholder.svg?height=400&width=600&text=Inventory+System",
+                    image:
+                      "/eunita_ph.jpg?height=400&width=600&text=Inventory+System",
                     slug: "inventory-management",
                   },
                   {
@@ -114,14 +135,15 @@ export default function Portfolio() {
                     category: "Web Development",
                     description:
                       "Online learning platform with course management, video streaming, and student progress tracking.",
-                    image: "/placeholder.svg?height=400&width=600&text=Educational+Platform",
+                    image:
+                      "/eunita_ph.jpg?height=400&width=600&text=Educational+Platform",
                     slug: "educational-platform",
                   },
                 ].map((project, index) => (
                   <Card key={index} className="overflow-hidden">
                     <div className="aspect-video overflow-hidden">
                       <Image
-                        src={project.image || "/placeholder.svg"}
+                        src={project.image || "/eunita_ph.jpg"}
                         alt={project.title}
                         width={600}
                         height={400}
@@ -155,7 +177,7 @@ export default function Portfolio() {
                 <Card className="overflow-hidden">
                   <div className="aspect-video overflow-hidden">
                     <Image
-                      src="/placeholder.svg?height=400&width=600&text=E-commerce+Platform"
+                      src="/eunita_ph.jpg?height=400&width=600&text=E-commerce+Platform"
                       alt="E-commerce Platform"
                       width={600}
                       height={400}
@@ -168,7 +190,8 @@ export default function Portfolio() {
                     </div>
                     <CardTitle>E-commerce Platform</CardTitle>
                     <CardDescription>
-                      A custom e-commerce solution with advanced inventory management for a retail chain.
+                      A custom e-commerce solution with advanced inventory
+                      management for a retail chain.
                     </CardDescription>
                   </CardHeader>
                   <CardFooter>
@@ -191,7 +214,7 @@ export default function Portfolio() {
                 <Card className="overflow-hidden">
                   <div className="aspect-video overflow-hidden">
                     <Image
-                      src="/placeholder.svg?height=400&width=600&text=Healthcare+App"
+                      src="/eunita_ph.jpg?height=400&width=600&text=Healthcare+App"
                       alt="Healthcare App"
                       width={600}
                       height={400}
@@ -204,8 +227,8 @@ export default function Portfolio() {
                     </div>
                     <CardTitle>Healthcare App</CardTitle>
                     <CardDescription>
-                      Patient management app for a leading healthcare provider with appointment scheduling and medical
-                      records.
+                      Patient management app for a leading healthcare provider
+                      with appointment scheduling and medical records.
                     </CardDescription>
                   </CardHeader>
                   <CardFooter>
@@ -228,7 +251,7 @@ export default function Portfolio() {
                 <Card className="overflow-hidden">
                   <div className="aspect-video overflow-hidden">
                     <Image
-                      src="/placeholder.svg?height=400&width=600&text=Financial+Dashboard"
+                      src="/eunita_ph.jpg?height=400&width=600&text=Financial+Dashboard"
                       alt="Financial Dashboard"
                       width={600}
                       height={400}
@@ -241,8 +264,8 @@ export default function Portfolio() {
                     </div>
                     <CardTitle>Financial Dashboard</CardTitle>
                     <CardDescription>
-                      Real-time financial analytics dashboard for an investment firm with data visualization and
-                      reporting.
+                      Real-time financial analytics dashboard for an investment
+                      firm with data visualization and reporting.
                     </CardDescription>
                   </CardHeader>
                   <CardFooter>
@@ -265,7 +288,7 @@ export default function Portfolio() {
                 <Card className="overflow-hidden">
                   <div className="aspect-video overflow-hidden">
                     <Image
-                      src="/placeholder.svg?height=400&width=600&text=Cloud+Migration"
+                      src="/eunita_ph.jpg?height=400&width=600&text=Cloud+Migration"
                       alt="Cloud Migration"
                       width={600}
                       height={400}
@@ -278,7 +301,8 @@ export default function Portfolio() {
                     </div>
                     <CardTitle>Cloud Migration</CardTitle>
                     <CardDescription>
-                      Migration of legacy systems to cloud infrastructure for a financial services company.
+                      Migration of legacy systems to cloud infrastructure for a
+                      financial services company.
                     </CardDescription>
                   </CardHeader>
                   <CardFooter>
@@ -302,9 +326,12 @@ export default function Portfolio() {
         <div className="container px-4 md:px-6">
           <div className="flex flex-col items-center justify-center space-y-4 text-center">
             <div className="space-y-2">
-              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">Ready to Start Your Project?</h2>
+              <h2 className="text-3xl font-bold tracking-tighter sm:text-4xl">
+                Ready to Start Your Project?
+              </h2>
               <p className="max-w-[700px] text-muted-foreground md:text-xl/relaxed lg:text-base/relaxed xl:text-xl/relaxed">
-                Let's discuss how our custom software solutions can help you achieve your business goals.
+                Let's discuss how our custom software solutions can help you
+                achieve your business goals.
               </p>
             </div>
             <div className="flex flex-col gap-2 min-[400px]:flex-row">
@@ -322,5 +349,5 @@ export default function Portfolio() {
         </div>
       </section>
     </div>
-  )
+  );
 }

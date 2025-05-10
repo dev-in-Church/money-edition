@@ -73,7 +73,7 @@ export default function BlogPage() {
                 date: "March 15, 2025",
                 readTime: "8 min read",
                 image:
-                  "/placeholder.svg?height=400&width=600&text=Web+Development+Trends",
+                  "/eunita_ph.jpg?height=400&width=600&text=Web+Development+Trends",
                 slug: "future-web-development-trends-2025",
               },
               {
@@ -85,7 +85,7 @@ export default function BlogPage() {
                 date: "March 10, 2025",
                 readTime: "12 min read",
                 image:
-                  "/placeholder.svg?height=400&width=600&text=Microservices+Architecture",
+                  "/eunita_ph.jpg?height=400&width=600&text=Microservices+Architecture",
                 slug: "building-scalable-microservices-architecture",
               },
               {
@@ -97,14 +97,14 @@ export default function BlogPage() {
                 date: "March 5, 2025",
                 readTime: "10 min read",
                 image:
-                  "/placeholder.svg?height=400&width=600&text=AI+in+Development",
+                  "/eunita_ph.jpg?height=400&width=600&text=AI+in+Development",
                 slug: "ai-software-development-beyond-hype",
               },
             ].map((article, index) => (
               <Card key={index} className="flex flex-col overflow-hidden">
                 <div className="aspect-video overflow-hidden">
                   <Image
-                    src={article.image || "/placeholder.svg"}
+                    src={article.image || "/eunita_ph.jpg"}
                     alt={article.title}
                     width={600}
                     height={400}
@@ -184,7 +184,7 @@ export default function BlogPage() {
                     date: "March 1, 2025",
                     readTime: "7 min read",
                     image:
-                      "/placeholder.svg?height=400&width=600&text=DevOps+Practices",
+                      "/eunita_ph.jpg?height=400&width=600&text=DevOps+Practices",
                     slug: "essential-devops-practices-2025",
                   },
                   {
@@ -196,7 +196,7 @@ export default function BlogPage() {
                     date: "February 25, 2025",
                     readTime: "9 min read",
                     image:
-                      "/placeholder.svg?height=400&width=600&text=React+vs+Vue",
+                      "/eunita_ph.jpg?height=400&width=600&text=React+vs+Vue",
                     slug: "react-vs-vue-2025-comparison",
                   },
                   {
@@ -208,7 +208,7 @@ export default function BlogPage() {
                     date: "February 20, 2025",
                     readTime: "11 min read",
                     image:
-                      "/placeholder.svg?height=400&width=600&text=Flutter+vs+React+Native",
+                      "/eunita_ph.jpg?height=400&width=600&text=Flutter+vs+React+Native",
                     slug: "flutter-react-native-ultimate-showdown",
                   },
                   {
@@ -220,7 +220,7 @@ export default function BlogPage() {
                     date: "February 15, 2025",
                     readTime: "8 min read",
                     image:
-                      "/placeholder.svg?height=400&width=600&text=Serverless+Architecture",
+                      "/eunita_ph.jpg?height=400&width=600&text=Serverless+Architecture",
                     slug: "serverless-architecture-benefits-challenges",
                   },
                   {
@@ -232,7 +232,7 @@ export default function BlogPage() {
                     date: "February 10, 2025",
                     readTime: "10 min read",
                     image:
-                      "/placeholder.svg?height=400&width=600&text=Database+Optimization",
+                      "/eunita_ph.jpg?height=400&width=600&text=Database+Optimization",
                     slug: "database-performance-optimization-techniques",
                   },
                   {
@@ -244,14 +244,14 @@ export default function BlogPage() {
                     date: "February 5, 2025",
                     readTime: "9 min read",
                     image:
-                      "/placeholder.svg?height=400&width=600&text=Cybersecurity",
+                      "/eunita_ph.jpg?height=400&width=600&text=Cybersecurity",
                     slug: "state-of-cybersecurity-2025",
                   },
                 ].map((article, index) => (
                   <Card key={index} className="flex flex-col">
                     <div className="aspect-video overflow-hidden">
                       <Image
-                        src={article.image || "/placeholder.svg"}
+                        src={article.image || "/eunita_ph.jpg"}
                         alt={article.title}
                         width={600}
                         height={400}
@@ -306,7 +306,7 @@ export default function BlogPage() {
                     date: "February 25, 2025",
                     readTime: "9 min read",
                     image:
-                      "/placeholder.svg?height=400&width=600&text=React+vs+Vue",
+                      "/eunita_ph.jpg?height=400&width=600&text=React+vs+Vue",
                     slug: "react-vs-vue-2025-comparison",
                   },
                   {
@@ -319,7 +319,7 @@ export default function BlogPage() {
                     date: "March 15, 2025",
                     readTime: "8 min read",
                     image:
-                      "/placeholder.svg?height=400&width=600&text=Web+Development+Trends",
+                      "/eunita_ph.jpg?height=400&width=600&text=Web+Development+Trends",
                     slug: "future-web-development-trends-2025",
                   },
                   {
@@ -331,14 +331,14 @@ export default function BlogPage() {
                     date: "January 30, 2025",
                     readTime: "12 min read",
                     image:
-                      "/placeholder.svg?height=400&width=600&text=Web+Performance",
+                      "/eunita_ph.jpg?height=400&width=600&text=Web+Performance",
                     slug: "optimizing-web-performance-guide",
                   },
                 ].map((article, index) => (
                   <Card key={index} className="flex flex-col">
                     <div className="aspect-video overflow-hidden">
                       <Image
-                        src={article.image || "/placeholder.svg"}
+                        src={article.image || "/eunita_ph.jpg"}
                         alt={article.title}
                         width={600}
                         height={400}
@@ -393,7 +393,7 @@ export default function BlogPage() {
                     date: "February 20, 2025",
                     readTime: "11 min read",
                     image:
-                      "/placeholder.svg?height=400&width=600&text=Flutter+vs+React+Native",
+                      "/eunita_ph.jpg?height=400&width=600&text=Flutter+vs+React+Native",
                     slug: "flutter-react-native-ultimate-showdown",
                   },
                   {
@@ -405,7 +405,7 @@ export default function BlogPage() {
                     date: "January 25, 2025",
                     readTime: "10 min read",
                     image:
-                      "/placeholder.svg?height=400&width=600&text=Mobile+Performance",
+                      "/eunita_ph.jpg?height=400&width=600&text=Mobile+Performance",
                     slug: "mobile-app-performance-optimization",
                   },
                   {
@@ -417,14 +417,14 @@ export default function BlogPage() {
                     date: "January 20, 2025",
                     readTime: "8 min read",
                     image:
-                      "/placeholder.svg?height=400&width=600&text=Mobile+Future",
+                      "/eunita_ph.jpg?height=400&width=600&text=Mobile+Future",
                     slug: "future-mobile-development-2025",
                   },
                 ].map((article, index) => (
                   <Card key={index} className="flex flex-col">
                     <div className="aspect-video overflow-hidden">
                       <Image
-                        src={article.image || "/placeholder.svg"}
+                        src={article.image || "/eunita_ph.jpg"}
                         alt={article.title}
                         width={600}
                         height={400}
@@ -479,7 +479,7 @@ export default function BlogPage() {
                     date: "March 1, 2025",
                     readTime: "7 min read",
                     image:
-                      "/placeholder.svg?height=400&width=600&text=DevOps+Practices",
+                      "/eunita_ph.jpg?height=400&width=600&text=DevOps+Practices",
                     slug: "essential-devops-practices-2025",
                   },
                   {
@@ -491,7 +491,7 @@ export default function BlogPage() {
                     date: "February 15, 2025",
                     readTime: "8 min read",
                     image:
-                      "/placeholder.svg?height=400&width=600&text=Serverless+Architecture",
+                      "/eunita_ph.jpg?height=400&width=600&text=Serverless+Architecture",
                     slug: "serverless-architecture-benefits-challenges",
                   },
                   {
@@ -504,14 +504,14 @@ export default function BlogPage() {
                     date: "January 15, 2025",
                     readTime: "11 min read",
                     image:
-                      "/placeholder.svg?height=400&width=600&text=Kubernetes+vs+Docker",
+                      "/eunita_ph.jpg?height=400&width=600&text=Kubernetes+vs+Docker",
                     slug: "kubernetes-docker-swarm-comparison",
                   },
                 ].map((article, index) => (
                   <Card key={index} className="flex flex-col">
                     <div className="aspect-video overflow-hidden">
                       <Image
-                        src={article.image || "/placeholder.svg"}
+                        src={article.image || "/eunita_ph.jpg"}
                         alt={article.title}
                         width={600}
                         height={400}
@@ -597,7 +597,7 @@ export default function BlogPage() {
             </div>
             <div className="flex items-center justify-center">
               <Image
-                src="/placeholder.svg?height=400&width=600&text=Newsletter"
+                src="/eunita_ph.jpg?height=400&width=600&text=Newsletter"
                 alt="Newsletter"
                 width={600}
                 height={400}
@@ -630,8 +630,7 @@ export default function BlogPage() {
                 author: "Lisa Patel",
                 date: "March 20, 2025",
                 readTime: "15 min read",
-                image:
-                  "/placeholder.svg?height=400&width=600&text=Next.js+Auth",
+                image: "/eunita_ph.jpg?height=400&width=600&text=Next.js+Auth",
                 slug: "nextjs-authentication-implementation",
               },
               {
@@ -642,7 +641,7 @@ export default function BlogPage() {
                 author: "John Smith",
                 date: "March 18, 2025",
                 readTime: "12 min read",
-                image: "/placeholder.svg?height=400&width=600&text=GraphQL",
+                image: "/eunita_ph.jpg?height=400&width=600&text=GraphQL",
                 slug: "introduction-graphql-rest-alternative",
               },
               {
@@ -654,7 +653,7 @@ export default function BlogPage() {
                 date: "March 17, 2025",
                 readTime: "10 min read",
                 image:
-                  "/placeholder.svg?height=400&width=600&text=Docker+Optimization",
+                  "/eunita_ph.jpg?height=400&width=600&text=Docker+Optimization",
                 slug: "optimizing-docker-containers-production",
               },
               {
@@ -665,14 +664,14 @@ export default function BlogPage() {
                 author: "Sarah Chen",
                 date: "March 16, 2025",
                 readTime: "14 min read",
-                image: "/placeholder.svg?height=400&width=600&text=TypeScript",
+                image: "/eunita_ph.jpg?height=400&width=600&text=TypeScript",
                 slug: "typescript-best-practices-large-applications",
               },
             ].map((article, index) => (
               <Card key={index} className="flex overflow-hidden">
                 <div className="hidden sm:block sm:w-[200px]">
                   <Image
-                    src={article.image || "/placeholder.svg"}
+                    src={article.image || "/eunita_ph.jpg"}
                     alt={article.title}
                     width={200}
                     height={200}

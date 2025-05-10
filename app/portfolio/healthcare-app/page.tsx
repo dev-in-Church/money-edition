@@ -37,7 +37,7 @@ export default function HealthcareAppCaseStudy() {
       "The client needed to modernize patient engagement while ensuring strict compliance with healthcare regulations including HIPAA. They wanted to reduce administrative overhead and improve patient satisfaction.",
     solution:
       "We built a secure, HIPAA-compliant mobile application using React Native with a Node.js backend. The app features end-to-end encryption for patient data, seamless integration with existing electronic health record systems, and an intuitive user interface.",
-    mainImage: "/placeholder.svg?height=600&width=800&text=Healthcare+App",
+    mainImage: "/eunita_ph.jpg?height=600&width=800&text=Healthcare+App",
     duration: "8 months",
     client: "HealthPlus Medical Group",
     completionDate: "November 2022",
@@ -64,31 +64,31 @@ export default function HealthcareAppCaseStudy() {
         "The mobile app developed by eUNITA has revolutionized how we interact with patients. User engagement has increased by 200% since launch, and our administrative staff can now focus on providing better care instead of managing appointments.",
       author: "Michael Chen",
       position: "Product Manager, HealthPlus Medical Group",
-      image: "/placeholder.svg?height=100&width=100&text=MC",
+      image: "/eunita_ph.jpg?height=100&width=100&text=MC",
     },
     gallery: [
       {
-        url: "/placeholder.svg?height=400&width=600&text=Login+Screen",
+        url: "/eunita_ph.jpg?height=400&width=600&text=Login+Screen",
         alt: "App login screen",
       },
       {
-        url: "/placeholder.svg?height=400&width=600&text=Appointment+Booking",
+        url: "/eunita_ph.jpg?height=400&width=600&text=Appointment+Booking",
         alt: "Appointment booking interface",
       },
       {
-        url: "/placeholder.svg?height=400&width=600&text=Medical+Records",
+        url: "/eunita_ph.jpg?height=400&width=600&text=Medical+Records",
         alt: "Medical records view",
       },
       {
-        url: "/placeholder.svg?height=400&width=600&text=Doctor+Chat",
+        url: "/eunita_ph.jpg?height=400&width=600&text=Doctor+Chat",
         alt: "Doctor communication interface",
       },
       {
-        url: "/placeholder.svg?height=400&width=600&text=Prescription+Management",
+        url: "/eunita_ph.jpg?height=400&width=600&text=Prescription+Management",
         alt: "Prescription management",
       },
       {
-        url: "/placeholder.svg?height=400&width=600&text=Notifications",
+        url: "/eunita_ph.jpg?height=400&width=600&text=Notifications",
         alt: "App notifications",
       },
     ],
@@ -98,7 +98,7 @@ export default function HealthcareAppCaseStudy() {
         category: "Mobile Development",
         description:
           "Comprehensive fitness tracking app with workout plans, nutrition tracking, and social features.",
-        image: "/placeholder.svg?height=400&width=600&text=Fitness+App",
+        image: "/eunita_ph.jpg?height=400&width=600&text=Fitness+App",
         slug: "fitness-tracker",
       },
       {
@@ -106,7 +106,7 @@ export default function HealthcareAppCaseStudy() {
         category: "Mobile Development",
         description:
           "Secure mobile banking application with transaction history, bill payments, and account management.",
-        image: "/placeholder.svg?height=400&width=600&text=Banking+App",
+        image: "/eunita_ph.jpg?height=400&width=600&text=Banking+App",
         slug: "banking-app",
       },
       {
@@ -114,8 +114,7 @@ export default function HealthcareAppCaseStudy() {
         category: "Web Development",
         description:
           "Online learning platform with course management, video streaming, and student progress tracking.",
-        image:
-          "/placeholder.svg?height=400&width=600&text=Educational+Platform",
+        image: "/eunita_ph.jpg?height=400&width=600&text=Educational+Platform",
         slug: "educational-platform",
       },
     ],
@@ -154,7 +153,7 @@ export default function HealthcareAppCaseStudy() {
             <div className="flex items-center justify-center">
               <div className="overflow-hidden rounded-lg">
                 <Image
-                  src={caseStudy.mainImage || "/placeholder.svg"}
+                  src={caseStudy.mainImage || "/eunita_ph.jpg"}
                   alt={caseStudy.title}
                   width={800}
                   height={600}
@@ -304,7 +303,7 @@ export default function HealthcareAppCaseStudy() {
               <div className="mt-6 flex items-center justify-center gap-4">
                 <div className="h-12 w-12 overflow-hidden rounded-full">
                   <Image
-                    src={caseStudy.testimonial.image || "/placeholder.svg"}
+                    src={caseStudy.testimonial.image || "/eunita_ph.jpg"}
                     alt={caseStudy.testimonial.author}
                     width={100}
                     height={100}
@@ -339,7 +338,7 @@ export default function HealthcareAppCaseStudy() {
               {caseStudy.gallery.map((image, index) => (
                 <div key={index} className="overflow-hidden rounded-lg">
                   <Image
-                    src={image.url || "/placeholder.svg"}
+                    src={image.url || "/eunita_ph.jpg"}
                     alt={image.alt || `Gallery image ${index + 1}`}
                     width={600}
                     height={400}
@@ -369,7 +368,7 @@ export default function HealthcareAppCaseStudy() {
                 <Card key={index} className="overflow-hidden">
                   <div className="aspect-video overflow-hidden">
                     <Image
-                      src={project.image || "/placeholder.svg"}
+                      src={project.image || "/eunita_ph.jpg"}
                       alt={project.title}
                       width={600}
                       height={400}

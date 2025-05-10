@@ -89,27 +89,27 @@ export default function TeamPage() {
                 image: "/user2.jpg?height=400&width=400&text=John+Smith",
               },
               {
-                name: "Sarah Chen",
+                name: "Mark Ng'ang'a",
                 position: "Chief Technology Officer",
                 bio: "Sarah leads our technical strategy and ensures we stay at the forefront of technological advancements. With a background in computer science and 15 years of experience, she guides our engineering teams to deliver innovative solutions.",
                 image: "/user.jpg?height=400&width=400&text=Sarah+Chen",
               },
               {
-                name: "Michael Rodriguez",
+                name: "Enock Ambale",
                 position: "Chief Operations Officer",
                 bio: "Michael oversees our day-to-day operations and ensures we deliver projects on time and within budget. His background in project management and business administration helps us maintain operational excellence.",
                 image:
                   "/placeholder-user.jpg?height=400&width=400&text=Michael+Rodriguez",
               },
               {
-                name: "Emily Johnson",
+                name: "Anne Nechesa",
                 position: "Chief Marketing Officer",
                 bio: "Emily leads our marketing and brand strategy. With over 12 years of experience in technology marketing, she helps us communicate our value proposition and connect with clients who can benefit from our services.",
                 image:
                   "/placeholder-user.jpg?height=400&width=400&text=Emily+Johnson",
               },
               {
-                name: "David Kim",
+                name: "Fabian Were",
                 position: "Chief Financial Officer",
                 bio: "David manages our financial strategy and ensures the company's financial health. His background in finance and experience with technology companies provides valuable insights for our growth strategy.",
                 image:
@@ -126,7 +126,7 @@ export default function TeamPage() {
               <Card key={index} className="flex flex-col overflow-hidden">
                 <div className="aspect-square overflow-hidden">
                   <Image
-                    src={leader.image || "/placeholder.svg"}
+                    src={leader.image || "/eunita_ph.jpg"}
                     alt={leader.name}
                     width={400}
                     height={400}

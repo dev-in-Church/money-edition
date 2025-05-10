@@ -37,7 +37,7 @@ export default function EcommercePlatformCaseStudy() {
       "The client needed to unify their online and offline sales channels, manage inventory across multiple locations, and provide a seamless shopping experience for customers. Their existing system was outdated and couldn't handle their growing business needs.",
     solution:
       "We built a custom e-commerce platform using React, Node.js, and MongoDB that integrated with their existing POS systems. The solution featured real-time inventory tracking, automated reordering, and a unified customer database.",
-    mainImage: "/placeholder.svg?height=600&width=800&text=E-commerce+Platform",
+    mainImage: "/eunita_ph.jpg?height=600&width=800&text=E-commerce+Platform",
     duration: "6 months",
     client: "RetailGiant Inc.",
     completionDate: "March 2023",
@@ -60,31 +60,31 @@ export default function EcommercePlatformCaseStudy() {
         "The e-commerce platform developed by eUNITA has transformed our retail business. Sales have increased by 150% in the first year, and our inventory management is now seamless across all channels.",
       author: "David Wilson",
       position: "Director of Digital, RetailGiant Inc.",
-      image: "/placeholder.svg?height=100&width=100&text=DW",
+      image: "/eunita_ph.jpg?height=100&width=100&text=DW",
     },
     gallery: [
       {
-        url: "/placeholder.svg?height=400&width=600&text=Homepage",
+        url: "/eunita_ph.jpg?height=400&width=600&text=Homepage",
         alt: "E-commerce homepage",
       },
       {
-        url: "/placeholder.svg?height=400&width=600&text=Product+Page",
+        url: "/eunita_ph.jpg?height=400&width=600&text=Product+Page",
         alt: "Product detail page",
       },
       {
-        url: "/placeholder.svg?height=400&width=600&text=Checkout",
+        url: "/eunita_ph.jpg?height=400&width=600&text=Checkout",
         alt: "Checkout process",
       },
       {
-        url: "/placeholder.svg?height=400&width=600&text=Admin+Dashboard",
+        url: "/eunita_ph.jpg?height=400&width=600&text=Admin+Dashboard",
         alt: "Admin dashboard",
       },
       {
-        url: "/placeholder.svg?height=400&width=600&text=Inventory+Management",
+        url: "/eunita_ph.jpg?height=400&width=600&text=Inventory+Management",
         alt: "Inventory management",
       },
       {
-        url: "/placeholder.svg?height=400&width=600&text=Mobile+View",
+        url: "/eunita_ph.jpg?height=400&width=600&text=Mobile+View",
         alt: "Mobile responsive design",
       },
     ],
@@ -94,8 +94,7 @@ export default function EcommercePlatformCaseStudy() {
         category: "Web Development",
         description:
           "Property listing and management platform with virtual tours and agent portals.",
-        image:
-          "/placeholder.svg?height=400&width=600&text=Real+Estate+Platform",
+        image: "/eunita_ph.jpg?height=400&width=600&text=Real+Estate+Platform",
         slug: "real-estate-platform",
       },
       {
@@ -103,7 +102,7 @@ export default function EcommercePlatformCaseStudy() {
         category: "Enterprise Software",
         description:
           "Comprehensive inventory system for a manufacturing company with barcode scanning and forecasting.",
-        image: "/placeholder.svg?height=400&width=600&text=Inventory+System",
+        image: "/eunita_ph.jpg?height=400&width=600&text=Inventory+System",
         slug: "inventory-management",
       },
       {
@@ -111,7 +110,7 @@ export default function EcommercePlatformCaseStudy() {
         category: "Cloud Solutions",
         description:
           "Migration of legacy systems to cloud infrastructure for a financial services company.",
-        image: "/placeholder.svg?height=400&width=600&text=Cloud+Migration",
+        image: "/eunita_ph.jpg?height=400&width=600&text=Cloud+Migration",
         slug: "cloud-migration",
       },
     ],
@@ -150,7 +149,7 @@ export default function EcommercePlatformCaseStudy() {
             <div className="flex items-center justify-center">
               <div className="overflow-hidden rounded-lg">
                 <Image
-                  src={caseStudy.mainImage || "/placeholder.svg"}
+                  src={caseStudy.mainImage || "/eunita_ph.jpg"}
                   alt={caseStudy.title}
                   width={800}
                   height={600}
@@ -300,7 +299,7 @@ export default function EcommercePlatformCaseStudy() {
               <div className="mt-6 flex items-center justify-center gap-4">
                 <div className="h-12 w-12 overflow-hidden rounded-full">
                   <Image
-                    src={caseStudy.testimonial.image || "/placeholder.svg"}
+                    src={caseStudy.testimonial.image || "/eunita_ph.jpg"}
                     alt={caseStudy.testimonial.author}
                     width={100}
                     height={100}
@@ -335,7 +334,7 @@ export default function EcommercePlatformCaseStudy() {
               {caseStudy.gallery.map((image, index) => (
                 <div key={index} className="overflow-hidden rounded-lg">
                   <Image
-                    src={image.url || "/placeholder.svg"}
+                    src={image.url || "/eunita_ph.jpg"}
                     alt={image.alt || `Gallery image ${index + 1}`}
                     width={600}
                     height={400}
@@ -365,7 +364,7 @@ export default function EcommercePlatformCaseStudy() {
                 <Card key={index} className="overflow-hidden">
                   <div className="aspect-video overflow-hidden">
                     <Image
-                      src={project.image || "/placeholder.svg"}
+                      src={project.image || "/eunita_ph.jpg"}
                       alt={project.title}
                       width={600}
                       height={400}

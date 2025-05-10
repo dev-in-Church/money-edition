@@ -86,7 +86,7 @@ export default function CaseStudyPage() {
                 <Image
                   src={
                     caseStudyData.mainImage ||
-                    "/placeholder.svg?height=600&width=800"
+                    "/eunita_ph.jpg?height=600&width=800"
                   }
                   alt={caseStudyData.title}
                   width={800}
@@ -239,7 +239,7 @@ export default function CaseStudyPage() {
                   <Image
                     src={
                       caseStudyData.testimonial.image ||
-                      "/placeholder.svg?height=100&width=100"
+                      "/eunita_ph.jpg?height=100&width=100"
                     }
                     alt={caseStudyData.testimonial.author}
                     width={100}
@@ -277,7 +277,7 @@ export default function CaseStudyPage() {
               {caseStudyData.gallery.map((image, index) => (
                 <div key={index} className="overflow-hidden rounded-lg">
                   <Image
-                    src={image.url || "/placeholder.svg?height=400&width=600"}
+                    src={image.url || "/eunita_ph.jpg?height=400&width=600"}
                     alt={image.alt || `Gallery image ${index + 1}`}
                     width={600}
                     height={400}
@@ -308,7 +308,7 @@ export default function CaseStudyPage() {
                   <div className="aspect-video overflow-hidden">
                     <Image
                       src={
-                        project.image || "/placeholder.svg?height=400&width=600"
+                        project.image || "/eunita_ph.jpg?height=400&width=600"
                       }
                       alt={project.title}
                       width={600}
@@ -384,8 +384,7 @@ function getCaseStudyData(slug: string) {
         "The client needed to unify their online and offline sales channels, manage inventory across multiple locations, and provide a seamless shopping experience for customers. Their existing system was outdated and couldn't handle their growing business needs.",
       solution:
         "We built a custom e-commerce platform using React, Node.js, and MongoDB that integrated with their existing POS systems. The solution featured real-time inventory tracking, automated reordering, and a unified customer database.",
-      mainImage:
-        "/placeholder.svg?height=600&width=800&text=E-commerce+Platform",
+      mainImage: "/eunita_ph.jpg?height=600&width=800&text=E-commerce+Platform",
       duration: "6 months",
       client: "RetailGiant Inc.",
       completionDate: "March 2023",
@@ -408,31 +407,31 @@ function getCaseStudyData(slug: string) {
           "The e-commerce platform developed by eUNITA has transformed our retail business. Sales have increased by 150% in the first year, and our inventory management is now seamless across all channels.",
         author: "David Wilson",
         position: "Director of Digital, RetailGiant Inc.",
-        image: "/placeholder.svg?height=100&width=100&text=DW",
+        image: "/eunita_ph.jpg?height=100&width=100&text=DW",
       },
       gallery: [
         {
-          url: "/placeholder.svg?height=400&width=600&text=Homepage",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Homepage",
           alt: "E-commerce homepage",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Product+Page",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Product+Page",
           alt: "Product detail page",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Checkout",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Checkout",
           alt: "Checkout process",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Admin+Dashboard",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Admin+Dashboard",
           alt: "Admin dashboard",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Inventory+Management",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Inventory+Management",
           alt: "Inventory management",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Mobile+View",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Mobile+View",
           alt: "Mobile responsive design",
         },
       ],
@@ -443,7 +442,7 @@ function getCaseStudyData(slug: string) {
           description:
             "Property listing and management platform with virtual tours and agent portals.",
           image:
-            "/placeholder.svg?height=400&width=600&text=Real+Estate+Platform",
+            "/eunita_ph.jpg?height=400&width=600&text=Real+Estate+Platform",
           slug: "real-estate-platform",
         },
         {
@@ -451,7 +450,7 @@ function getCaseStudyData(slug: string) {
           category: "Enterprise Software",
           description:
             "Comprehensive inventory system for a manufacturing company with barcode scanning and forecasting.",
-          image: "/placeholder.svg?height=400&width=600&text=Inventory+System",
+          image: "/eunita_ph.jpg?height=400&width=600&text=Inventory+System",
           slug: "inventory-management",
         },
         {
@@ -459,7 +458,7 @@ function getCaseStudyData(slug: string) {
           category: "Cloud Solutions",
           description:
             "Migration of legacy systems to cloud infrastructure for a financial services company.",
-          image: "/placeholder.svg?height=400&width=600&text=Cloud+Migration",
+          image: "/eunita_ph.jpg?height=400&width=600&text=Cloud+Migration",
           slug: "cloud-migration",
         },
       ],
@@ -475,7 +474,7 @@ function getCaseStudyData(slug: string) {
         "The client needed to modernize patient engagement while ensuring strict compliance with healthcare regulations including HIPAA. They wanted to reduce administrative overhead and improve patient satisfaction.",
       solution:
         "We built a secure, HIPAA-compliant mobile application using React Native with a Node.js backend. The app features end-to-end encryption for patient data, seamless integration with existing electronic health record systems, and an intuitive user interface.",
-      mainImage: "/placeholder.svg?height=600&width=800&text=Healthcare+App",
+      mainImage: "/eunita_ph.jpg?height=600&width=800&text=Healthcare+App",
       duration: "8 months",
       client: "HealthPlus Medical Group",
       completionDate: "November 2022",
@@ -506,31 +505,31 @@ function getCaseStudyData(slug: string) {
           "The mobile app developed by eUNITA has revolutionized how we interact with patients. User engagement has increased by 200% since launch, and our administrative staff can now focus on providing better care instead of managing appointments.",
         author: "Michael Chen",
         position: "Product Manager, HealthPlus Medical Group",
-        image: "/placeholder.svg?height=100&width=100&text=MC",
+        image: "/eunita_ph.jpg?height=100&width=100&text=MC",
       },
       gallery: [
         {
-          url: "/placeholder.svg?height=400&width=600&text=Login+Screen",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Login+Screen",
           alt: "App login screen",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Appointment+Booking",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Appointment+Booking",
           alt: "Appointment booking interface",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Medical+Records",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Medical+Records",
           alt: "Medical records view",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Doctor+Chat",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Doctor+Chat",
           alt: "Doctor communication interface",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Prescription+Management",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Prescription+Management",
           alt: "Prescription management",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Notifications",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Notifications",
           alt: "App notifications",
         },
       ],
@@ -540,7 +539,7 @@ function getCaseStudyData(slug: string) {
           category: "Mobile Development",
           description:
             "Comprehensive fitness tracking app with workout plans, nutrition tracking, and social features.",
-          image: "/placeholder.svg?height=400&width=600&text=Fitness+App",
+          image: "/eunita_ph.jpg?height=400&width=600&text=Fitness+App",
           slug: "fitness-tracker",
         },
         {
@@ -548,7 +547,7 @@ function getCaseStudyData(slug: string) {
           category: "Mobile Development",
           description:
             "Secure mobile banking application with transaction history, bill payments, and account management.",
-          image: "/placeholder.svg?height=400&width=600&text=Banking+App",
+          image: "/eunita_ph.jpg?height=400&width=600&text=Banking+App",
           slug: "banking-app",
         },
         {
@@ -557,7 +556,7 @@ function getCaseStudyData(slug: string) {
           description:
             "Online learning platform with course management, video streaming, and student progress tracking.",
           image:
-            "/placeholder.svg?height=400&width=600&text=Educational+Platform",
+            "/eunita_ph.jpg?height=400&width=600&text=Educational+Platform",
           slug: "educational-platform",
         },
       ],
@@ -574,8 +573,7 @@ function getCaseStudyData(slug: string) {
         "The client needed to consolidate financial data from multiple sources, provide real-time analytics for investment decisions, and generate comprehensive reports for clients and regulatory compliance.",
       solution:
         "We built a secure, scalable dashboard using React, D3.js, and a Node.js backend with a PostgreSQL database. The solution features real-time data processing, interactive visualizations, and automated report generation.",
-      mainImage:
-        "/placeholder.svg?height=600&width=800&text=Financial+Dashboard",
+      mainImage: "/eunita_ph.jpg?height=600&width=800&text=Financial+Dashboard",
       duration: "7 months",
       client: "Global Investments Ltd.",
       completionDate: "January 2023",
@@ -602,31 +600,31 @@ function getCaseStudyData(slug: string) {
           "The financial dashboard developed by eUNITA has transformed how we analyze and present data to our clients. The real-time visualizations and automated reporting have saved countless hours and improved our decision-making process.",
         author: "Jennifer Morgan",
         position: "CIO, Global Investments Ltd.",
-        image: "/placeholder.svg?height=100&width=100&text=JM",
+        image: "/eunita_ph.jpg?height=100&width=100&text=JM",
       },
       gallery: [
         {
-          url: "/placeholder.svg?height=400&width=600&text=Dashboard+Overview",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Dashboard+Overview",
           alt: "Dashboard main view",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Portfolio+Analysis",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Portfolio+Analysis",
           alt: "Portfolio analysis screen",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Real-time+Charts",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Real-time+Charts",
           alt: "Real-time data visualization",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Report+Generation",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Report+Generation",
           alt: "Automated reporting interface",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Data+Integration",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Data+Integration",
           alt: "Data source integration",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Mobile+Dashboard",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Mobile+Dashboard",
           alt: "Mobile responsive dashboard",
         },
       ],
@@ -636,7 +634,7 @@ function getCaseStudyData(slug: string) {
           category: "Mobile Development",
           description:
             "Secure mobile banking application with transaction history, bill payments, and account management.",
-          image: "/placeholder.svg?height=400&width=600&text=Banking+App",
+          image: "/eunita_ph.jpg?height=400&width=600&text=Banking+App",
           slug: "banking-app",
         },
         {
@@ -644,7 +642,7 @@ function getCaseStudyData(slug: string) {
           category: "Enterprise Software",
           description:
             "Custom customer relationship management system for a sales team with pipeline management and analytics.",
-          image: "/placeholder.svg?height=400&width=600&text=CRM+System",
+          image: "/eunita_ph.jpg?height=400&width=600&text=CRM+System",
           slug: "crm-system",
         },
         {
@@ -652,7 +650,7 @@ function getCaseStudyData(slug: string) {
           category: "Cloud Solutions",
           description:
             "Migration of legacy systems to cloud infrastructure for a financial services company.",
-          image: "/placeholder.svg?height=400&width=600&text=Cloud+Migration",
+          image: "/eunita_ph.jpg?height=400&width=600&text=Cloud+Migration",
           slug: "cloud-migration",
         },
       ],
@@ -669,7 +667,7 @@ function getCaseStudyData(slug: string) {
       solution:
         "We built an integrated logistics platform using Angular, .NET Core, and SQL Server with microservices architecture. The system features real-time GPS tracking, AI-powered route optimization, and comprehensive analytics.",
       mainImage:
-        "/placeholder.svg?height=600&width=800&text=Logistics+Management",
+        "/eunita_ph.jpg?height=600&width=800&text=Logistics+Management",
       duration: "10 months",
       client: "Global Shipping Solutions",
       completionDate: "August 2022",
@@ -693,31 +691,31 @@ function getCaseStudyData(slug: string) {
           "The logistics management system developed by eUNITA has transformed our global shipping operations. We've seen a significant reduction in delivery times and operational costs while improving customer satisfaction through reliable tracking.",
         author: "Emily Rodriguez",
         position: "CTO, Global Shipping Solutions",
-        image: "/placeholder.svg?height=100&width=100&text=ER",
+        image: "/eunita_ph.jpg?height=100&width=100&text=ER",
       },
       gallery: [
         {
-          url: "/placeholder.svg?height=400&width=600&text=Dashboard",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Dashboard",
           alt: "Logistics dashboard",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Route+Optimization",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Route+Optimization",
           alt: "Route optimization interface",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Tracking+Map",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Tracking+Map",
           alt: "Real-time tracking map",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Inventory+Management",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Inventory+Management",
           alt: "Inventory management",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Analytics",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Analytics",
           alt: "Supply chain analytics",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Mobile+Tracking",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Mobile+Tracking",
           alt: "Mobile tracking application",
         },
       ],
@@ -727,7 +725,7 @@ function getCaseStudyData(slug: string) {
           category: "Enterprise Software",
           description:
             "Comprehensive inventory system for a manufacturing company with barcode scanning and forecasting.",
-          image: "/placeholder.svg?height=400&width=600&text=Inventory+System",
+          image: "/eunita_ph.jpg?height=400&width=600&text=Inventory+System",
           slug: "inventory-management",
         },
         {
@@ -735,8 +733,7 @@ function getCaseStudyData(slug: string) {
           category: "Web Development",
           description:
             "A custom e-commerce solution with advanced inventory management for a retail chain.",
-          image:
-            "/placeholder.svg?height=400&width=600&text=E-commerce+Platform",
+          image: "/eunita_ph.jpg?height=400&width=600&text=E-commerce+Platform",
           slug: "ecommerce-platform",
         },
         {
@@ -744,7 +741,7 @@ function getCaseStudyData(slug: string) {
           category: "Mobile Development",
           description:
             "Real-time package tracking app for a logistics company with barcode scanning and delivery confirmation.",
-          image: "/placeholder.svg?height=400&width=600&text=Delivery+App",
+          image: "/eunita_ph.jpg?height=400&width=600&text=Delivery+App",
           slug: "delivery-app",
         },
       ],
@@ -761,7 +758,7 @@ function getCaseStudyData(slug: string) {
       solution:
         "We built a feature-rich platform using React, Node.js, and MongoDB with 360° virtual tour integration, CRM functionality for agents, and an AI-powered property recommendation system.",
       mainImage:
-        "/placeholder.svg?height=600&width=800&text=Real+Estate+Platform",
+        "/eunita_ph.jpg?height=600&width=800&text=Real+Estate+Platform",
       duration: "9 months",
       client: "National Realty Group",
       completionDate: "May 2022",
@@ -788,31 +785,31 @@ function getCaseStudyData(slug: string) {
           "The real estate platform developed by eUNITA has revolutionized how we showcase properties and connect with clients. The virtual tour feature became essential during the pandemic and continues to be a major competitive advantage.",
         author: "Alexandra Torres",
         position: "Director of Digital Strategy, National Realty Group",
-        image: "/placeholder.svg?height=100&width=100&text=AT",
+        image: "/eunita_ph.jpg?height=100&width=100&text=AT",
       },
       gallery: [
         {
-          url: "/placeholder.svg?height=400&width=600&text=Property+Listings",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Property+Listings",
           alt: "Property listing page",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Virtual+Tour",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Virtual+Tour",
           alt: "360° virtual tour interface",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Agent+Portal",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Agent+Portal",
           alt: "Agent management dashboard",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Property+Details",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Property+Details",
           alt: "Detailed property information",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Client+Communication",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Client+Communication",
           alt: "Client messaging system",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Mobile+View",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Mobile+View",
           alt: "Mobile responsive design",
         },
       ],
@@ -822,8 +819,7 @@ function getCaseStudyData(slug: string) {
           category: "Web Development",
           description:
             "A custom e-commerce solution with advanced inventory management for a retail chain.",
-          image:
-            "/placeholder.svg?height=400&width=600&text=E-commerce+Platform",
+          image: "/eunita_ph.jpg?height=400&width=600&text=E-commerce+Platform",
           slug: "ecommerce-platform",
         },
         {
@@ -831,7 +827,7 @@ function getCaseStudyData(slug: string) {
           category: "Enterprise Software",
           description:
             "Custom customer relationship management system for a sales team with pipeline management and analytics.",
-          image: "/placeholder.svg?height=400&width=600&text=CRM+System",
+          image: "/eunita_ph.jpg?height=400&width=600&text=CRM+System",
           slug: "crm-system",
         },
         {
@@ -840,7 +836,7 @@ function getCaseStudyData(slug: string) {
           description:
             "Online learning platform with course management, video streaming, and student progress tracking.",
           image:
-            "/placeholder.svg?height=400&width=600&text=Educational+Platform",
+            "/eunita_ph.jpg?height=400&width=600&text=Educational+Platform",
           slug: "educational-platform",
         },
       ],
@@ -856,8 +852,7 @@ function getCaseStudyData(slug: string) {
         "The client needed a comprehensive fitness solution that would differentiate itself in a crowded market by offering personalized workout plans, accurate nutrition tracking, and engaging social features.",
       solution:
         "We built a cross-platform mobile app using Flutter with a Firebase backend. The app features machine learning for workout form analysis, integration with wearable devices, and gamification elements to increase user engagement.",
-      mainImage:
-        "/placeholder.svg?height=600&width=800&text=Fitness+Tracker+App",
+      mainImage: "/eunita_ph.jpg?height=600&width=800&text=Fitness+Tracker+App",
       duration: "7 months",
       client: "FitLife Technologies",
       completionDate: "April 2023",
@@ -880,31 +875,31 @@ function getCaseStudyData(slug: string) {
           "eUNITA delivered a fitness app that exceeded our expectations in every way. The machine learning features for form correction and personalized workout recommendations have been particularly well-received by our users.",
         author: "Jason Kim",
         position: "CEO, FitLife Technologies",
-        image: "/placeholder.svg?height=100&width=100&text=JK",
+        image: "/eunita_ph.jpg?height=100&width=100&text=JK",
       },
       gallery: [
         {
-          url: "/placeholder.svg?height=400&width=600&text=Dashboard",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Dashboard",
           alt: "Fitness dashboard",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Workout+Tracking",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Workout+Tracking",
           alt: "Workout tracking interface",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Nutrition+Log",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Nutrition+Log",
           alt: "Nutrition logging",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Form+Analysis",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Form+Analysis",
           alt: "Workout form analysis",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Social+Feed",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Social+Feed",
           alt: "Community social feed",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Progress+Charts",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Progress+Charts",
           alt: "Progress visualization",
         },
       ],
@@ -914,7 +909,7 @@ function getCaseStudyData(slug: string) {
           category: "Mobile Development",
           description:
             "Patient management app for a leading healthcare provider with appointment scheduling and medical records.",
-          image: "/placeholder.svg?height=400&width=600&text=Healthcare+App",
+          image: "/eunita_ph.jpg?height=400&width=600&text=Healthcare+App",
           slug: "healthcare-app",
         },
         {
@@ -923,7 +918,7 @@ function getCaseStudyData(slug: string) {
           description:
             "Online learning platform with course management, video streaming, and student progress tracking.",
           image:
-            "/placeholder.svg?height=400&width=600&text=Educational+Platform",
+            "/eunita_ph.jpg?height=400&width=600&text=Educational+Platform",
           slug: "educational-platform",
         },
         {
@@ -931,7 +926,7 @@ function getCaseStudyData(slug: string) {
           category: "Mobile Development",
           description:
             "Secure mobile banking application with transaction history, bill payments, and account management.",
-          image: "/placeholder.svg?height=400&width=600&text=Banking+App",
+          image: "/eunita_ph.jpg?height=400&width=600&text=Banking+App",
           slug: "banking-app",
         },
       ],
@@ -947,7 +942,7 @@ function getCaseStudyData(slug: string) {
         "The client needed to modernize their aging infrastructure while ensuring zero downtime, maintaining strict financial regulatory compliance, and improving disaster recovery capabilities.",
       solution:
         "We implemented a phased migration strategy using AWS, containerization with Docker and Kubernetes, and automated CI/CD pipelines. The solution included comprehensive security measures and real-time monitoring.",
-      mainImage: "/placeholder.svg?height=600&width=800&text=Cloud+Migration",
+      mainImage: "/eunita_ph.jpg?height=600&width=800&text=Cloud+Migration",
       duration: "12 months",
       client: "Financial Services Inc.",
       completionDate: "December 2022",
@@ -975,31 +970,31 @@ function getCaseStudyData(slug: string) {
           "Their expertise in cloud migration saved us thousands in infrastructure costs while improving our system reliability and security. The eUNITA team handled the complex migration with minimal disruption to our operations.",
         author: "Emily Rodriguez",
         position: "CTO, Financial Services Inc.",
-        image: "/placeholder.svg?height=100&width=100&text=ER",
+        image: "/eunita_ph.jpg?height=100&width=100&text=ER",
       },
       gallery: [
         {
-          url: "/placeholder.svg?height=400&width=600&text=Cloud+Architecture",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Cloud+Architecture",
           alt: "Cloud architecture diagram",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Migration+Dashboard",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Migration+Dashboard",
           alt: "Migration progress dashboard",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Monitoring+System",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Monitoring+System",
           alt: "Real-time monitoring",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Security+Controls",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Security+Controls",
           alt: "Security implementation",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Performance+Metrics",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Performance+Metrics",
           alt: "Performance comparison",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Disaster+Recovery",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Disaster+Recovery",
           alt: "Disaster recovery testing",
         },
       ],
@@ -1009,8 +1004,7 @@ function getCaseStudyData(slug: string) {
           category: "Enterprise Software",
           description:
             "Real-time financial analytics dashboard for an investment firm with data visualization and reporting.",
-          image:
-            "/placeholder.svg?height=400&width=600&text=Financial+Dashboard",
+          image: "/eunita_ph.jpg?height=400&width=600&text=Financial+Dashboard",
           slug: "financial-dashboard",
         },
         {
@@ -1019,7 +1013,7 @@ function getCaseStudyData(slug: string) {
           description:
             "Implementation of serverless architecture for a high-traffic e-commerce platform.",
           image:
-            "/placeholder.svg?height=400&width=600&text=Serverless+Architecture",
+            "/eunita_ph.jpg?height=400&width=600&text=Serverless+Architecture",
           slug: "serverless-architecture",
         },
         {
@@ -1027,7 +1021,7 @@ function getCaseStudyData(slug: string) {
           category: "Cloud Solutions",
           description:
             "Transition from monolithic architecture to microservices for a SaaS platform.",
-          image: "/placeholder.svg?height=400&width=600&text=Microservices",
+          image: "/eunita_ph.jpg?height=400&width=600&text=Microservices",
           slug: "microservices",
         },
       ],
@@ -1044,7 +1038,7 @@ function getCaseStudyData(slug: string) {
       solution:
         "We built a comprehensive inventory management system using .NET Core, SQL Server, and React with barcode/RFID scanning capabilities, automated reordering, and machine learning for demand forecasting.",
       mainImage:
-        "/placeholder.svg?height=600&width=800&text=Inventory+Management",
+        "/eunita_ph.jpg?height=600&width=800&text=Inventory+Management",
       duration: "8 months",
       client: "ManufactureCo Industries",
       completionDate: "July 2022",
@@ -1068,31 +1062,31 @@ function getCaseStudyData(slug: string) {
           "The inventory management system developed by eUNITA has streamlined our operations and reduced errors by 75%. It's been a game-changer for our business, allowing us to optimize stock levels and improve cash flow.",
         author: "Robert Martinez",
         position: "Supply Chain Director, ManufactureCo Industries",
-        image: "/placeholder.svg?height=100&width=100&text=RM",
+        image: "/eunita_ph.jpg?height=100&width=100&text=RM",
       },
       gallery: [
         {
-          url: "/placeholder.svg?height=400&width=600&text=Dashboard",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Dashboard",
           alt: "Inventory dashboard",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Barcode+Scanning",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Barcode+Scanning",
           alt: "Barcode scanning interface",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Stock+Levels",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Stock+Levels",
           alt: "Real-time stock levels",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Forecasting",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Forecasting",
           alt: "Demand forecasting analytics",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Warehouse+Map",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Warehouse+Map",
           alt: "Warehouse mapping",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Mobile+Scanner",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Mobile+Scanner",
           alt: "Mobile scanning application",
         },
       ],
@@ -1102,7 +1096,7 @@ function getCaseStudyData(slug: string) {
           category: "Enterprise Software",
           description:
             "End-to-end logistics and supply chain management system for a global shipping company.",
-          image: "/placeholder.svg?height=400&width=600&text=Logistics+System",
+          image: "/eunita_ph.jpg?height=400&width=600&text=Logistics+System",
           slug: "logistics-management",
         },
         {
@@ -1110,8 +1104,7 @@ function getCaseStudyData(slug: string) {
           category: "Web Development",
           description:
             "A custom e-commerce solution with advanced inventory management for a retail chain.",
-          image:
-            "/placeholder.svg?height=400&width=600&text=E-commerce+Platform",
+          image: "/eunita_ph.jpg?height=400&width=600&text=E-commerce+Platform",
           slug: "ecommerce-platform",
         },
         {
@@ -1119,7 +1112,7 @@ function getCaseStudyData(slug: string) {
           category: "Cloud Solutions",
           description:
             "Migration of legacy systems to cloud infrastructure for a financial services company.",
-          image: "/placeholder.svg?height=400&width=600&text=Cloud+Migration",
+          image: "/eunita_ph.jpg?height=400&width=600&text=Cloud+Migration",
           slug: "cloud-migration",
         },
       ],
@@ -1136,7 +1129,7 @@ function getCaseStudyData(slug: string) {
       solution:
         "We built a feature-rich platform using Next.js, Node.js, and PostgreSQL with video streaming capabilities, interactive assessments, and a robust analytics dashboard for educators.",
       mainImage:
-        "/placeholder.svg?height=600&width=800&text=Educational+Platform",
+        "/eunita_ph.jpg?height=600&width=800&text=Educational+Platform",
       duration: "9 months",
       client: "EduTech Learning",
       completionDate: "June 2023",
@@ -1164,31 +1157,31 @@ function getCaseStudyData(slug: string) {
           "Working with eUNITA was a pleasure from start to finish. They understood our requirements perfectly and delivered a solution that exceeded our expectations. The platform has transformed how we deliver online education.",
         author: "Jennifer Lee",
         position: "Operations Manager, EduTech Learning",
-        image: "/placeholder.svg?height=100&width=100&text=JL",
+        image: "/eunita_ph.jpg?height=100&width=100&text=JL",
       },
       gallery: [
         {
-          url: "/placeholder.svg?height=400&width=600&text=Course+Dashboard",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Course+Dashboard",
           alt: "Course dashboard",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Video+Streaming",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Video+Streaming",
           alt: "Video streaming interface",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Interactive+Quizzes",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Interactive+Quizzes",
           alt: "Interactive assessments",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Progress+Tracking",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Progress+Tracking",
           alt: "Student progress tracking",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Analytics",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Analytics",
           alt: "Educator analytics dashboard",
         },
         {
-          url: "/placeholder.svg?height=400&width=600&text=Mobile+Learning",
+          url: "/eunita_ph.jpg?height=400&width=600&text=Mobile+Learning",
           alt: "Mobile learning experience",
         },
       ],
@@ -1198,7 +1191,7 @@ function getCaseStudyData(slug: string) {
           category: "Mobile Development",
           description:
             "Patient management app for a leading healthcare provider with appointment scheduling and medical records.",
-          image: "/placeholder.svg?height=400&width=600&text=Healthcare+App",
+          image: "/eunita_ph.jpg?height=400&width=600&text=Healthcare+App",
           slug: "healthcare-app",
         },
         {
@@ -1206,7 +1199,7 @@ function getCaseStudyData(slug: string) {
           category: "Mobile Development",
           description:
             "Comprehensive fitness tracking app with workout plans, nutrition tracking, and social features.",
-          image: "/placeholder.svg?height=400&width=600&text=Fitness+App",
+          image: "/eunita_ph.jpg?height=400&width=600&text=Fitness+App",
           slug: "fitness-tracker",
         },
         {
@@ -1214,8 +1207,7 @@ function getCaseStudyData(slug: string) {
           category: "Web Development",
           description:
             "A custom e-commerce solution with advanced inventory management for a retail chain.",
-          image:
-            "/placeholder.svg?height=400&width=600&text=E-commerce+Platform",
+          image: "/eunita_ph.jpg?height=400&width=600&text=E-commerce+Platform",
           slug: "ecommerce-platform",
         },
       ],

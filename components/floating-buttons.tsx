@@ -52,7 +52,7 @@ export default function FloatingButtons() {
       {/* Help Options Button */}
       <DropdownMenu>
         <DropdownMenuTrigger asChild>
-          <Button className="floating-button bg-primary text-primary-foreground">
+          <Button className="floating-button bg-orange-500 text-primary-foreground">
             <HelpCircle className="h-5 w-5" />
           </Button>
         </DropdownMenuTrigger>

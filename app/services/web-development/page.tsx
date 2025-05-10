@@ -395,7 +395,7 @@ export default function WebDevelopmentPage() {
                   >
                     <div className="h-20 w-20">
                       <Image
-                        src={tech.logo || "/placeholder.svg"}
+                        src={tech.logo || "/eunita_ph.jpg"}
                         alt={tech.name}
                         width={80}
                         height={80}
@@ -457,7 +457,7 @@ export default function WebDevelopmentPage() {
                   >
                     <div className="h-20 w-20">
                       <Image
-                        src={tech.logo || "/placeholder.svg"}
+                        src={tech.logo || "/eunita_ph.jpg"}
                         alt={tech.name}
                         width={80}
                         height={80}
@@ -474,43 +474,43 @@ export default function WebDevelopmentPage() {
                 {[
                   {
                     name: "WordPress",
-                    logo: "/placeholder.svg?height=80&width=80&text=WordPress",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=WordPress",
                   },
                   {
                     name: "Drupal",
-                    logo: "/placeholder.svg?height=80&width=80&text=Drupal",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=Drupal",
                   },
                   {
                     name: "Joomla",
-                    logo: "/placeholder.svg?height=80&width=80&text=Joomla",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=Joomla",
                   },
                   {
                     name: "Shopify",
-                    logo: "/placeholder.svg?height=80&width=80&text=Shopify",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=Shopify",
                   },
                   {
                     name: "Magento",
-                    logo: "/placeholder.svg?height=80&width=80&text=Magento",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=Magento",
                   },
                   {
                     name: "Strapi",
-                    logo: "/placeholder.svg?height=80&width=80&text=Strapi",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=Strapi",
                   },
                   {
                     name: "Contentful",
-                    logo: "/placeholder.svg?height=80&width=80&text=Contentful",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=Contentful",
                   },
                   {
                     name: "Sanity",
-                    logo: "/placeholder.svg?height=80&width=80&text=Sanity",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=Sanity",
                   },
                   {
                     name: "Ghost",
-                    logo: "/placeholder.svg?height=80&width=80&text=Ghost",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=Ghost",
                   },
                   {
                     name: "Prismic",
-                    logo: "/placeholder.svg?height=80&width=80&text=Prismic",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=Prismic",
                   },
                 ].map((tech, index) => (
                   <div
@@ -519,7 +519,7 @@ export default function WebDevelopmentPage() {
                   >
                     <div className="h-20 w-20">
                       <Image
-                        src={tech.logo || "/placeholder.svg"}
+                        src={tech.logo || "/eunita_ph.jpg"}
                         alt={tech.name}
                         width={80}
                         height={80}
@@ -614,7 +614,7 @@ export default function WebDevelopmentPage() {
                 description:
                   "A custom e-commerce solution with advanced inventory management.",
                 image:
-                  "/placeholder.svg?height=400&width=600&text=E-commerce+Platform",
+                  "/eunita_ph.jpg?height=400&width=600&text=E-commerce+Platform",
               },
               {
                 title: "Corporate Website",
@@ -622,7 +622,7 @@ export default function WebDevelopmentPage() {
                 description:
                   "Modern website with CMS for a multinational corporation.",
                 image:
-                  "/placeholder.svg?height=400&width=600&text=Corporate+Website",
+                  "/eunita_ph.jpg?height=400&width=600&text=Corporate+Website",
               },
               {
                 title: "Online Learning Platform",
@@ -630,13 +630,13 @@ export default function WebDevelopmentPage() {
                 description:
                   "Interactive learning platform with video courses and assessments.",
                 image:
-                  "/placeholder.svg?height=400&width=600&text=Learning+Platform",
+                  "/eunita_ph.jpg?height=400&width=600&text=Learning+Platform",
               },
             ].map((project, index) => (
               <Card key={index} className="overflow-hidden">
                 <div className="aspect-video overflow-hidden">
                   <Image
-                    src={project.image || "/placeholder.svg"}
+                    src={project.image || "/eunita_ph.jpg"}
                     alt={project.title}
                     width={600}
                     height={400}

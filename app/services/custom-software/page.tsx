@@ -395,7 +395,7 @@ export default function CustomSoftwarePage() {
                   >
                     <div className="h-20 w-20">
                       <Image
-                        src={tech.logo || "/placeholder.svg"}
+                        src={tech.logo || "/eunita_ph.jpg"}
                         alt={tech.name}
                         width={80}
                         height={80}
@@ -457,7 +457,7 @@ export default function CustomSoftwarePage() {
                   >
                     <div className="h-20 w-20">
                       <Image
-                        src={tech.logo || "/placeholder.svg"}
+                        src={tech.logo || "/eunita_ph.jpg"}
                         alt={tech.name}
                         width={80}
                         height={80}
@@ -519,7 +519,7 @@ export default function CustomSoftwarePage() {
                   >
                     <div className="h-20 w-20">
                       <Image
-                        src={tech.logo || "/placeholder.svg"}
+                        src={tech.logo || "/eunita_ph.jpg"}
                         alt={tech.name}
                         width={80}
                         height={80}
@@ -627,7 +627,7 @@ export default function CustomSoftwarePage() {
                 description:
                   "Real-time financial analytics dashboard for an investment firm with data visualization.",
                 image:
-                  "/placeholder.svg?height=400&width=600&text=Financial+Dashboard",
+                  "/eunita_ph.jpg?height=400&width=600&text=Financial+Dashboard",
               },
               {
                 title: "Inventory Management System",
@@ -635,20 +635,20 @@ export default function CustomSoftwarePage() {
                 description:
                   "Comprehensive inventory system for a manufacturing company with barcode scanning.",
                 image:
-                  "/placeholder.svg?height=400&width=600&text=Inventory+System",
+                  "/eunita_ph.jpg?height=400&width=600&text=Inventory+System",
               },
               {
                 title: "HR Management Platform",
                 category: "Enterprise Software",
                 description:
                   "Employee management and HR automation platform with performance reviews.",
-                image: "/placeholder.svg?height=400&width=600&text=HR+Platform",
+                image: "/eunita_ph.jpg?height=400&width=600&text=HR+Platform",
               },
             ].map((project, index) => (
               <Card key={index} className="overflow-hidden">
                 <div className="aspect-video overflow-hidden">
                   <Image
-                    src={project.image || "/placeholder.svg"}
+                    src={project.image || "/eunita_ph.jpg"}
                     alt={project.title}
                     width={600}
                     height={400}

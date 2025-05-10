@@ -627,7 +627,7 @@ export default function CareersPage() {
                 author: "David Lee",
                 position: "Senior Developer",
                 years: "5 years at eUNITA",
-                image: "/placeholder.svg?height=100&width=100&text=DL",
+                image: "/eunita_ph.jpg?height=100&width=100&text=DL",
               },
               {
                 quote:
@@ -635,7 +635,7 @@ export default function CareersPage() {
                 author: "Maria Garcia",
                 position: "UX Designer",
                 years: "3 years at eUNITA",
-                image: "/placeholder.svg?height=100&width=100&text=MG",
+                image: "/eunita_ph.jpg?height=100&width=100&text=MG",
               },
               {
                 quote:
@@ -643,7 +643,7 @@ export default function CareersPage() {
                 author: "James Wilson",
                 position: "Project Manager",
                 years: "4 years at eUNITA",
-                image: "/placeholder.svg?height=100&width=100&text=JW",
+                image: "/eunita_ph.jpg?height=100&width=100&text=JW",
               },
             ].map((testimonial, index) => (
               <Card key={index} className="relative overflow-hidden">
@@ -658,7 +658,7 @@ export default function CareersPage() {
                 <CardContent className="mt-4 flex items-center gap-4">
                   <div className="h-12 w-12 overflow-hidden rounded-full">
                     <Image
-                      src={testimonial.image || "/placeholder.svg"}
+                      src={testimonial.image || "/eunita_ph.jpg"}
                       alt={testimonial.author}
                       width={100}
                       height={100}

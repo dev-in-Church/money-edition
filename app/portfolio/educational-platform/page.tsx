@@ -1,10 +1,10 @@
-"use client"
-import Image from "next/image"
-import Link from "next/link"
-import { ArrowLeft, ChevronRight } from "lucide-react"
-import { Button } from "@/components/ui/button"
-import { Card } from "@/components/ui/card"
-import { Badge } from "@/components/ui/badge"
+"use client";
+import Image from "next/image";
+import Link from "next/link";
+import { ArrowLeft, ChevronRight } from "lucide-react";
+import { Button } from "@/components/ui/button";
+import { Card } from "@/components/ui/card";
+import { Badge } from "@/components/ui/badge";
 
 // Define the page component with proper default export
 export default function EducationalPlatformPage() {
@@ -23,13 +23,16 @@ export default function EducationalPlatformPage() {
 
           <div className="grid gap-6 lg:grid-cols-2 lg:gap-12 items-center">
             <div>
-              <Badge className="mb-4 bg-primary/10 text-primary hover:bg-primary/20 border-none">Education</Badge>
+              <Badge className="mb-4 bg-primary/10 text-primary hover:bg-primary/20 border-none">
+                Education
+              </Badge>
               <h1 className="text-3xl font-bold tracking-tighter sm:text-4xl md:text-5xl mb-4">
                 Adaptive Learning Platform
               </h1>
               <p className="text-muted-foreground text-lg mb-6">
-                A personalized educational platform that adapts to each student's learning style and pace, resulting in
-                a 42% improvement in learning outcomes.
+                A personalized educational platform that adapts to each
+                student's learning style and pace, resulting in a 42%
+                improvement in learning outcomes.
               </p>
 
               <div className="flex flex-wrap gap-4 mb-8">
@@ -50,7 +53,7 @@ export default function EducationalPlatformPage() {
 
             <div className="relative aspect-video overflow-hidden rounded-xl shadow-xl">
               <Image
-                src="/placeholder.svg?height=720&width=1280"
+                src="/eunita_ph.jpg?height=720&width=1280"
                 alt="Educational Platform Dashboard"
                 width={1280}
                 height={720}
@@ -68,18 +71,22 @@ export default function EducationalPlatformPage() {
             <div className="lg:col-span-2">
               <h2 className="text-2xl font-bold mb-6">Project Overview</h2>
               <p className="text-muted-foreground mb-4">
-                The National Education Group needed a modern, adaptive learning platform to replace their outdated
-                system that couldn't keep up with evolving educational needs. Students were disengaged, and educators
-                lacked insights into student performance.
+                The National Education Group needed a modern, adaptive learning
+                platform to replace their outdated system that couldn't keep up
+                with evolving educational needs. Students were disengaged, and
+                educators lacked insights into student performance.
               </p>
               <p className="text-muted-foreground mb-4">
-                We developed a comprehensive educational platform that personalizes content based on individual learning
-                styles, progress, and goals. The system uses AI to identify knowledge gaps and adjust difficulty levels
-                in real-time, keeping students challenged but not overwhelmed.
+                We developed a comprehensive educational platform that
+                personalizes content based on individual learning styles,
+                progress, and goals. The system uses AI to identify knowledge
+                gaps and adjust difficulty levels in real-time, keeping students
+                challenged but not overwhelmed.
               </p>
               <p className="text-muted-foreground">
-                The platform includes interactive lessons, gamification elements, progress tracking, and a robust
-                analytics dashboard for educators to monitor class and individual performance.
+                The platform includes interactive lessons, gamification
+                elements, progress tracking, and a robust analytics dashboard
+                for educators to monitor class and individual performance.
               </p>
             </div>
 
@@ -148,11 +155,17 @@ export default function EducationalPlatformPage() {
             <div>
               <h2 className="text-2xl font-bold mb-6">The Challenge</h2>
               <div className="space-y-4 text-muted-foreground">
-                <p>The client faced several challenges with their existing educational system:</p>
+                <p>
+                  The client faced several challenges with their existing
+                  educational system:
+                </p>
                 <ul className="space-y-2">
                   <li className="flex items-start">
                     <ChevronRight className="h-5 w-5 text-primary shrink-0 mr-2" />
-                    <span>One-size-fits-all approach that didn't address individual learning needs</span>
+                    <span>
+                      One-size-fits-all approach that didn't address individual
+                      learning needs
+                    </span>
                   </li>
                   <li className="flex items-start">
                     <ChevronRight className="h-5 w-5 text-primary shrink-0 mr-2" />
@@ -160,15 +173,23 @@ export default function EducationalPlatformPage() {
                   </li>
                   <li className="flex items-start">
                     <ChevronRight className="h-5 w-5 text-primary shrink-0 mr-2" />
-                    <span>Limited insights into student performance and knowledge gaps</span>
+                    <span>
+                      Limited insights into student performance and knowledge
+                      gaps
+                    </span>
                   </li>
                   <li className="flex items-start">
                     <ChevronRight className="h-5 w-5 text-primary shrink-0 mr-2" />
-                    <span>Difficulty scaling content creation across multiple subjects</span>
+                    <span>
+                      Difficulty scaling content creation across multiple
+                      subjects
+                    </span>
                   </li>
                   <li className="flex items-start">
                     <ChevronRight className="h-5 w-5 text-primary shrink-0 mr-2" />
-                    <span>Poor integration with existing school management systems</span>
+                    <span>
+                      Poor integration with existing school management systems
+                    </span>
                   </li>
                 </ul>
               </div>
@@ -177,27 +198,45 @@ export default function EducationalPlatformPage() {
             <div>
               <h2 className="text-2xl font-bold mb-6">Our Solution</h2>
               <div className="space-y-4 text-muted-foreground">
-                <p>We developed a comprehensive solution that addressed each challenge:</p>
+                <p>
+                  We developed a comprehensive solution that addressed each
+                  challenge:
+                </p>
                 <ul className="space-y-2">
                   <li className="flex items-start">
                     <ChevronRight className="h-5 w-5 text-primary shrink-0 mr-2" />
-                    <span>AI-powered learning paths that adapt to each student's strengths and weaknesses</span>
+                    <span>
+                      AI-powered learning paths that adapt to each student's
+                      strengths and weaknesses
+                    </span>
                   </li>
                   <li className="flex items-start">
                     <ChevronRight className="h-5 w-5 text-primary shrink-0 mr-2" />
-                    <span>Gamification elements including points, badges, and leaderboards to boost engagement</span>
+                    <span>
+                      Gamification elements including points, badges, and
+                      leaderboards to boost engagement
+                    </span>
                   </li>
                   <li className="flex items-start">
                     <ChevronRight className="h-5 w-5 text-primary shrink-0 mr-2" />
-                    <span>Advanced analytics dashboard with predictive insights for educators</span>
+                    <span>
+                      Advanced analytics dashboard with predictive insights for
+                      educators
+                    </span>
                   </li>
                   <li className="flex items-start">
                     <ChevronRight className="h-5 w-5 text-primary shrink-0 mr-2" />
-                    <span>Content creation platform with templates and collaborative tools</span>
+                    <span>
+                      Content creation platform with templates and collaborative
+                      tools
+                    </span>
                   </li>
                   <li className="flex items-start">
                     <ChevronRight className="h-5 w-5 text-primary shrink-0 mr-2" />
-                    <span>API-first architecture for seamless integration with existing systems</span>
+                    <span>
+                      API-first architecture for seamless integration with
+                      existing systems
+                    </span>
                   </li>
                 </ul>
               </div>
@@ -209,7 +248,9 @@ export default function EducationalPlatformPage() {
       {/* Implementation Process */}
       <section className="py-12">
         <div className="container px-4 md:px-6">
-          <h2 className="text-2xl font-bold mb-8 text-center">Implementation Process</h2>
+          <h2 className="text-2xl font-bold mb-8 text-center">
+            Implementation Process
+          </h2>
 
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-4">
             <Card className="p-6">
@@ -218,8 +259,8 @@ export default function EducationalPlatformPage() {
               </div>
               <h3 className="font-bold mb-2">Discovery & Research</h3>
               <p className="text-sm text-muted-foreground">
-                Conducted extensive research with students, teachers, and administrators to understand pain points and
-                requirements.
+                Conducted extensive research with students, teachers, and
+                administrators to understand pain points and requirements.
               </p>
             </Card>
 
@@ -229,7 +270,8 @@ export default function EducationalPlatformPage() {
               </div>
               <h3 className="font-bold mb-2">Design & Prototyping</h3>
               <p className="text-sm text-muted-foreground">
-                Created interactive prototypes and conducted usability testing with actual students and teachers.
+                Created interactive prototypes and conducted usability testing
+                with actual students and teachers.
               </p>
             </Card>
 
@@ -239,7 +281,8 @@ export default function EducationalPlatformPage() {
               </div>
               <h3 className="font-bold mb-2">Development</h3>
               <p className="text-sm text-muted-foreground">
-                Built the platform using agile methodology with bi-weekly releases and continuous feedback.
+                Built the platform using agile methodology with bi-weekly
+                releases and continuous feedback.
               </p>
             </Card>
 
@@ -249,7 +292,8 @@ export default function EducationalPlatformPage() {
               </div>
               <h3 className="font-bold mb-2">Deployment & Training</h3>
               <p className="text-sm text-muted-foreground">
-                Rolled out the platform in phases with comprehensive training for all stakeholders.
+                Rolled out the platform in phases with comprehensive training
+                for all stakeholders.
               </p>
             </Card>
           </div>
@@ -259,22 +303,30 @@ export default function EducationalPlatformPage() {
       {/* Results Section */}
       <section className="py-12 bg-primary/5">
         <div className="container px-4 md:px-6">
-          <h2 className="text-2xl font-bold mb-8 text-center">Results & Impact</h2>
+          <h2 className="text-2xl font-bold mb-8 text-center">
+            Results & Impact
+          </h2>
 
           <div className="grid gap-6 md:grid-cols-2 lg:grid-cols-3">
             <Card className="p-6 text-center">
               <h3 className="text-4xl font-bold text-primary mb-2">42%</h3>
-              <p className="text-muted-foreground">Improvement in learning outcomes</p>
+              <p className="text-muted-foreground">
+                Improvement in learning outcomes
+              </p>
             </Card>
 
             <Card className="p-6 text-center">
               <h3 className="text-4xl font-bold text-primary mb-2">68%</h3>
-              <p className="text-muted-foreground">Increase in student engagement</p>
+              <p className="text-muted-foreground">
+                Increase in student engagement
+              </p>
             </Card>
 
             <Card className="p-6 text-center">
               <h3 className="text-4xl font-bold text-primary mb-2">35%</h3>
-              <p className="text-muted-foreground">Reduction in dropout rates</p>
+              <p className="text-muted-foreground">
+                Reduction in dropout rates
+              </p>
             </Card>
 
             <Card className="p-6 text-center">
@@ -302,7 +354,7 @@ export default function EducationalPlatformPage() {
             <div className="flex flex-col md:flex-row gap-6 items-center">
               <div className="rounded-full overflow-hidden w-20 h-20">
                 <Image
-                  src="/placeholder.svg?height=80&width=80"
+                  src="/eunita_ph.jpg?height=80&width=80"
                   alt="Dr. Sarah Johnson"
                   width={80}
                   height={80}
@@ -312,13 +364,17 @@ export default function EducationalPlatformPage() {
 
               <div>
                 <blockquote className="text-lg italic mb-4">
-                  "This platform has revolutionized how we teach and how our students learn. The adaptive technology
-                  ensures every student gets the support they need, and the analytics give us unprecedented insights
-                  into learning patterns. It's been transformative for our institution."
+                  "This platform has revolutionized how we teach and how our
+                  students learn. The adaptive technology ensures every student
+                  gets the support they need, and the analytics give us
+                  unprecedented insights into learning patterns. It's been
+                  transformative for our institution."
                 </blockquote>
                 <div>
                   <p className="font-bold">Dr. Sarah Johnson</p>
-                  <p className="text-sm text-muted-foreground">Chief Academic Officer, National Education Group</p>
+                  <p className="text-sm text-muted-foreground">
+                    Chief Academic Officer, National Education Group
+                  </p>
                 </div>
               </div>
             </div>
@@ -334,7 +390,7 @@ export default function EducationalPlatformPage() {
           <div className="grid grid-cols-2 md:grid-cols-3 gap-4">
             <div className="aspect-video rounded-lg overflow-hidden">
               <Image
-                src="/placeholder.svg?height=360&width=640"
+                src="/eunita_ph.jpg?height=360&width=640"
                 alt="Student Dashboard"
                 width={640}
                 height={360}
@@ -343,7 +399,7 @@ export default function EducationalPlatformPage() {
             </div>
             <div className="aspect-video rounded-lg overflow-hidden">
               <Image
-                src="/placeholder.svg?height=360&width=640"
+                src="/eunita_ph.jpg?height=360&width=640"
                 alt="Learning Module"
                 width={640}
                 height={360}
@@ -352,7 +408,7 @@ export default function EducationalPlatformPage() {
             </div>
             <div className="aspect-video rounded-lg overflow-hidden">
               <Image
-                src="/placeholder.svg?height=360&width=640"
+                src="/eunita_ph.jpg?height=360&width=640"
                 alt="Analytics Dashboard"
                 width={640}
                 height={360}
@@ -361,7 +417,7 @@ export default function EducationalPlatformPage() {
             </div>
             <div className="aspect-video rounded-lg overflow-hidden">
               <Image
-                src="/placeholder.svg?height=360&width=640"
+                src="/eunita_ph.jpg?height=360&width=640"
                 alt="Content Creation Tool"
                 width={640}
                 height={360}
@@ -370,7 +426,7 @@ export default function EducationalPlatformPage() {
             </div>
             <div className="aspect-video rounded-lg overflow-hidden">
               <Image
-                src="/placeholder.svg?height=360&width=640"
+                src="/eunita_ph.jpg?height=360&width=640"
                 alt="Mobile App View"
                 width={640}
                 height={360}
@@ -379,7 +435,7 @@ export default function EducationalPlatformPage() {
             </div>
             <div className="aspect-video rounded-lg overflow-hidden">
               <Image
-                src="/placeholder.svg?height=360&width=640"
+                src="/eunita_ph.jpg?height=360&width=640"
                 alt="Gamification Elements"
                 width={640}
                 height={360}
@@ -399,7 +455,7 @@ export default function EducationalPlatformPage() {
             <Card className="overflow-hidden">
               <div className="aspect-video relative">
                 <Image
-                  src="/placeholder.svg?height=360&width=640"
+                  src="/eunita_ph.jpg?height=360&width=640"
                   alt="Healthcare System"
                   width={640}
                   height={360}
@@ -408,9 +464,12 @@ export default function EducationalPlatformPage() {
               </div>
               <div className="p-6">
                 <Badge className="mb-2">Healthcare</Badge>
-                <h3 className="font-bold text-lg mb-2">Integrated Healthcare System</h3>
+                <h3 className="font-bold text-lg mb-2">
+                  Integrated Healthcare System
+                </h3>
                 <p className="text-sm text-muted-foreground mb-4">
-                  A comprehensive EHR system with patient portal and telemedicine capabilities.
+                  A comprehensive EHR system with patient portal and
+                  telemedicine capabilities.
                 </p>
                 <Link href="/portfolio/healthcare-system">
                   <Button variant="outline" size="sm" className="w-full">
@@ -423,7 +482,7 @@ export default function EducationalPlatformPage() {
             <Card className="overflow-hidden">
               <div className="aspect-video relative">
                 <Image
-                  src="/placeholder.svg?height=360&width=640"
+                  src="/eunita_ph.jpg?height=360&width=640"
                   alt="AI Recommendation Engine"
                   width={640}
                   height={360}
@@ -432,9 +491,12 @@ export default function EducationalPlatformPage() {
               </div>
               <div className="p-6">
                 <Badge className="mb-2">AI</Badge>
-                <h3 className="font-bold text-lg mb-2">AI Recommendation Engine</h3>
+                <h3 className="font-bold text-lg mb-2">
+                  AI Recommendation Engine
+                </h3>
                 <p className="text-sm text-muted-foreground mb-4">
-                  Machine learning system that provides personalized content recommendations.
+                  Machine learning system that provides personalized content
+                  recommendations.
                 </p>
                 <Link href="/portfolio/ai-recommendation-engine">
                   <Button variant="outline" size="sm" className="w-full">
@@ -447,7 +509,7 @@ export default function EducationalPlatformPage() {
             <Card className="overflow-hidden">
               <div className="aspect-video relative">
                 <Image
-                  src="/placeholder.svg?height=360&width=640"
+                  src="/eunita_ph.jpg?height=360&width=640"
                   alt="Mobile Fitness App"
                   width={640}
                   height={360}
@@ -458,7 +520,8 @@ export default function EducationalPlatformPage() {
                 <Badge className="mb-2">Mobile</Badge>
                 <h3 className="font-bold text-lg mb-2">Mobile Fitness App</h3>
                 <p className="text-sm text-muted-foreground mb-4">
-                  Cross-platform fitness tracking application with social features.
+                  Cross-platform fitness tracking application with social
+                  features.
                 </p>
                 <Link href="/portfolio/mobile-fitness-app">
                   <Button variant="outline" size="sm" className="w-full">
@@ -474,10 +537,13 @@ export default function EducationalPlatformPage() {
       {/* CTA Section */}
       <section className="py-16 bg-primary/10">
         <div className="container px-4 md:px-6 text-center">
-          <h2 className="text-3xl font-bold mb-4">Ready to transform your educational platform?</h2>
+          <h2 className="text-3xl font-bold mb-4">
+            Ready to transform your educational platform?
+          </h2>
           <p className="text-lg text-muted-foreground mb-8 max-w-2xl mx-auto">
-            Let's discuss how our expertise in educational technology can help you create engaging, effective learning
-            experiences for your students.
+            Let's discuss how our expertise in educational technology can help
+            you create engaging, effective learning experiences for your
+            students.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link href="/contact">
@@ -494,5 +560,5 @@ export default function EducationalPlatformPage() {
         </div>
       </section>
     </main>
-  )
+  );
 }

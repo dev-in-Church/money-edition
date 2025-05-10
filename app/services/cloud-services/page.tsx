@@ -347,43 +347,43 @@ export default function CloudServicesPage() {
                 {[
                   {
                     name: "EC2",
-                    logo: "/placeholder.svg?height=80&width=80&text=EC2",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=EC2",
                   },
                   {
                     name: "S3",
-                    logo: "/placeholder.svg?height=80&width=80&text=S3",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=S3",
                   },
                   {
                     name: "Lambda",
-                    logo: "/placeholder.svg?height=80&width=80&text=Lambda",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=Lambda",
                   },
                   {
                     name: "RDS",
-                    logo: "/placeholder.svg?height=80&width=80&text=RDS",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=RDS",
                   },
                   {
                     name: "DynamoDB",
-                    logo: "/placeholder.svg?height=80&width=80&text=DynamoDB",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=DynamoDB",
                   },
                   {
                     name: "ECS",
-                    logo: "/placeholder.svg?height=80&width=80&text=ECS",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=ECS",
                   },
                   {
                     name: "EKS",
-                    logo: "/placeholder.svg?height=80&width=80&text=EKS",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=EKS",
                   },
                   {
                     name: "CloudFront",
-                    logo: "/placeholder.svg?height=80&width=80&text=CloudFront",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=CloudFront",
                   },
                   {
                     name: "API Gateway",
-                    logo: "/placeholder.svg?height=80&width=80&text=API+Gateway",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=API+Gateway",
                   },
                   {
                     name: "CloudFormation",
-                    logo: "/placeholder.svg?height=80&width=80&text=CloudFormation",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=CloudFormation",
                   },
                 ].map((tech, index) => (
                   <div
@@ -392,7 +392,7 @@ export default function CloudServicesPage() {
                   >
                     <div className="h-20 w-20">
                       <Image
-                        src={tech.logo || "/placeholder.svg"}
+                        src={tech.logo || "/eunita_ph.jpg"}
                         alt={tech.name}
                         width={80}
                         height={80}
@@ -409,43 +409,43 @@ export default function CloudServicesPage() {
                 {[
                   {
                     name: "Virtual Machines",
-                    logo: "/placeholder.svg?height=80&width=80&text=VMs",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=VMs",
                   },
                   {
                     name: "App Service",
-                    logo: "/placeholder.svg?height=80&width=80&text=App+Service",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=App+Service",
                   },
                   {
                     name: "Azure Functions",
-                    logo: "/placeholder.svg?height=80&width=80&text=Functions",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=Functions",
                   },
                   {
                     name: "SQL Database",
-                    logo: "/placeholder.svg?height=80&width=80&text=SQL+DB",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=SQL+DB",
                   },
                   {
                     name: "Cosmos DB",
-                    logo: "/placeholder.svg?height=80&width=80&text=Cosmos+DB",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=Cosmos+DB",
                   },
                   {
                     name: "AKS",
-                    logo: "/placeholder.svg?height=80&width=80&text=AKS",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=AKS",
                   },
                   {
                     name: "Blob Storage",
-                    logo: "/placeholder.svg?height=80&width=80&text=Blob",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=Blob",
                   },
                   {
                     name: "Azure DevOps",
-                    logo: "/placeholder.svg?height=80&width=80&text=DevOps",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=DevOps",
                   },
                   {
                     name: "API Management",
-                    logo: "/placeholder.svg?height=80&width=80&text=API+Mgmt",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=API+Mgmt",
                   },
                   {
                     name: "ARM Templates",
-                    logo: "/placeholder.svg?height=80&width=80&text=ARM",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=ARM",
                   },
                 ].map((tech, index) => (
                   <div
@@ -454,7 +454,7 @@ export default function CloudServicesPage() {
                   >
                     <div className="h-20 w-20">
                       <Image
-                        src={tech.logo || "/placeholder.svg"}
+                        src={tech.logo || "/eunita_ph.jpg"}
                         alt={tech.name}
                         width={80}
                         height={80}
@@ -471,43 +471,43 @@ export default function CloudServicesPage() {
                 {[
                   {
                     name: "Compute Engine",
-                    logo: "/placeholder.svg?height=80&width=80&text=Compute",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=Compute",
                   },
                   {
                     name: "App Engine",
-                    logo: "/placeholder.svg?height=80&width=80&text=App+Engine",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=App+Engine",
                   },
                   {
                     name: "Cloud Functions",
-                    logo: "/placeholder.svg?height=80&width=80&text=Functions",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=Functions",
                   },
                   {
                     name: "Cloud SQL",
-                    logo: "/placeholder.svg?height=80&width=80&text=Cloud+SQL",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=Cloud+SQL",
                   },
                   {
                     name: "Firestore",
-                    logo: "/placeholder.svg?height=80&width=80&text=Firestore",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=Firestore",
                   },
                   {
                     name: "GKE",
-                    logo: "/placeholder.svg?height=80&width=80&text=GKE",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=GKE",
                   },
                   {
                     name: "Cloud Storage",
-                    logo: "/placeholder.svg?height=80&width=80&text=Storage",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=Storage",
                   },
                   {
                     name: "BigQuery",
-                    logo: "/placeholder.svg?height=80&width=80&text=BigQuery",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=BigQuery",
                   },
                   {
                     name: "Cloud Run",
-                    logo: "/placeholder.svg?height=80&width=80&text=Cloud+Run",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=Cloud+Run",
                   },
                   {
                     name: "Deployment Manager",
-                    logo: "/placeholder.svg?height=80&width=80&text=Deployment",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=Deployment",
                   },
                 ].map((tech, index) => (
                   <div
@@ -516,7 +516,7 @@ export default function CloudServicesPage() {
                   >
                     <div className="h-20 w-20">
                       <Image
-                        src={tech.logo || "/placeholder.svg"}
+                        src={tech.logo || "/eunita_ph.jpg"}
                         alt={tech.name}
                         width={80}
                         height={80}
@@ -619,7 +619,7 @@ export default function CloudServicesPage() {
                 description:
                   "Migration of legacy systems to AWS for a financial services company.",
                 image:
-                  "/placeholder.svg?height=400&width=600&text=Financial+Migration",
+                  "/eunita_ph.jpg?height=400&width=600&text=Financial+Migration",
               },
               {
                 title: "E-commerce Scalability",
@@ -627,7 +627,7 @@ export default function CloudServicesPage() {
                 description:
                   "Scalable cloud architecture for a growing e-commerce platform.",
                 image:
-                  "/placeholder.svg?height=400&width=600&text=E-commerce+Cloud",
+                  "/eunita_ph.jpg?height=400&width=600&text=E-commerce+Cloud",
               },
               {
                 title: "Healthcare Data Platform",
@@ -635,13 +635,13 @@ export default function CloudServicesPage() {
                 description:
                   "HIPAA-compliant serverless data platform for a healthcare provider.",
                 image:
-                  "/placeholder.svg?height=400&width=600&text=Healthcare+Cloud",
+                  "/eunita_ph.jpg?height=400&width=600&text=Healthcare+Cloud",
               },
             ].map((project, index) => (
               <Card key={index} className="overflow-hidden">
                 <div className="aspect-video overflow-hidden">
                   <Image
-                    src={project.image || "/placeholder.svg"}
+                    src={project.image || "/eunita_ph.jpg"}
                     alt={project.title}
                     width={600}
                     height={400}

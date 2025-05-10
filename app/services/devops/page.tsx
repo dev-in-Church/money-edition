@@ -356,11 +356,11 @@ export default function DevOpsPage() {
                   },
                   {
                     name: "GitHub Actions",
-                    logo: "/placeholder.svg?height=80&width=80&text=GitHub+Actions",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=GitHub+Actions",
                   },
                   {
                     name: "GitLab CI",
-                    logo: "/placeholder.svg?height=80&width=80&text=GitLab+CI",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=GitLab+CI",
                   },
                   {
                     name: "CircleCI",
@@ -376,7 +376,7 @@ export default function DevOpsPage() {
                   },
                   {
                     name: "AWS CodePipeline",
-                    logo: "/placeholder.svg?height=80&width=80&text=CodePipeline",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=CodePipeline",
                   },
                   {
                     name: "Bamboo",
@@ -384,7 +384,7 @@ export default function DevOpsPage() {
                   },
                   {
                     name: "TeamCity",
-                    logo: "/placeholder.svg?height=80&width=80&text=TeamCity",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=TeamCity",
                   },
                   {
                     name: "Argo CD",
@@ -397,7 +397,7 @@ export default function DevOpsPage() {
                   >
                     <div className="h-20 w-20">
                       <Image
-                        src={tech.logo || "/placeholder.svg"}
+                        src={tech.logo || "/eunita_ph.jpg"}
                         alt={tech.name}
                         width={80}
                         height={80}
@@ -430,7 +430,7 @@ export default function DevOpsPage() {
                   },
                   {
                     name: "OpenShift",
-                    logo: "/placeholder.svg?height=80&width=80&text=OpenShift",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=OpenShift",
                   },
                   {
                     name: "Rancher",
@@ -438,15 +438,15 @@ export default function DevOpsPage() {
                   },
                   {
                     name: "Docker Compose",
-                    logo: "/placeholder.svg?height=80&width=80&text=Docker+Compose",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=Docker+Compose",
                   },
                   {
                     name: "Istio",
-                    logo: "/placeholder.svg?height=80&width=80&text=Istio",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=Istio",
                   },
                   {
                     name: "Terraform",
-                    logo: "/placeholder.svg?height=80&width=80&text=Terraform",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=Terraform",
                   },
                   {
                     name: "Ansible",
@@ -459,7 +459,7 @@ export default function DevOpsPage() {
                   >
                     <div className="h-20 w-20">
                       <Image
-                        src={tech.logo || "/placeholder.svg"}
+                        src={tech.logo || "/eunita_ph.jpg"}
                         alt={tech.name}
                         width={80}
                         height={80}
@@ -476,7 +476,7 @@ export default function DevOpsPage() {
                 {[
                   {
                     name: "Prometheus",
-                    logo: "/placeholder.svg?height=80&width=80&text=Prometheus",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=Prometheus",
                   },
                   {
                     name: "Grafana",
@@ -484,35 +484,35 @@ export default function DevOpsPage() {
                   },
                   {
                     name: "ELK Stack",
-                    logo: "/placeholder.svg?height=80&width=80&text=ELK+Stack",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=ELK+Stack",
                   },
                   {
                     name: "Datadog",
-                    logo: "/placeholder.svg?height=80&width=80&text=Datadog",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=Datadog",
                   },
                   {
                     name: "New Relic",
-                    logo: "/placeholder.svg?height=80&width=80&text=New+Relic",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=New+Relic",
                   },
                   {
                     name: "Nagios",
-                    logo: "/placeholder.svg?height=80&width=80&text=Nagios",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=Nagios",
                   },
                   {
                     name: "Zabbix",
-                    logo: "/placeholder.svg?height=80&width=80&text=Zabbix",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=Zabbix",
                   },
                   {
                     name: "Splunk",
-                    logo: "/placeholder.svg?height=80&width=80&text=Splunk",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=Splunk",
                   },
                   {
                     name: "Dynatrace",
-                    logo: "/placeholder.svg?height=80&width=80&text=Dynatrace",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=Dynatrace",
                   },
                   {
                     name: "AppDynamics",
-                    logo: "/placeholder.svg?height=80&width=80&text=AppDynamics",
+                    logo: "/eunita_ph.jpg?height=80&width=80&text=AppDynamics",
                   },
                 ].map((tech, index) => (
                   <div
@@ -521,7 +521,7 @@ export default function DevOpsPage() {
                   >
                     <div className="h-20 w-20">
                       <Image
-                        src={tech.logo || "/placeholder.svg"}
+                        src={tech.logo || "/eunita_ph.jpg"}
                         alt={tech.name}
                         width={80}
                         height={80}
@@ -623,15 +623,14 @@ export default function DevOpsPage() {
                 description:
                   "Automated deployment pipeline for a high-traffic e-commerce platform.",
                 image:
-                  "/placeholder.svg?height=400&width=600&text=E-commerce+CI/CD",
+                  "/eunita_ph.jpg?height=400&width=600&text=E-commerce+CI/CD",
               },
               {
                 title: "Microservices Containerization",
                 category: "Containerization",
                 description:
                   "Containerized microservices architecture for a fintech application.",
-                image:
-                  "/placeholder.svg?height=400&width=600&text=Microservices",
+                image: "/eunita_ph.jpg?height=400&width=600&text=Microservices",
               },
               {
                 title: "Infrastructure Automation",
@@ -639,13 +638,13 @@ export default function DevOpsPage() {
                 description:
                   "Automated infrastructure provisioning for a healthcare SaaS provider.",
                 image:
-                  "/placeholder.svg?height=400&width=600&text=Infrastructure",
+                  "/eunita_ph.jpg?height=400&width=600&text=Infrastructure",
               },
             ].map((project, index) => (
               <Card key={index} className="overflow-hidden">
                 <div className="aspect-video overflow-hidden">
                   <Image
-                    src={project.image || "/placeholder.svg"}
+                    src={project.image || "/eunita_ph.jpg"}
                     alt={project.title}
                     width={600}
                     height={400}
