@@ -745,9 +745,9 @@ export default function Home() {
               {
                 quote:
                   "eUNITA transformed our business with their custom software. Their team was professional and delivered on time.",
-                author: "Sarah Johnson",
-                position: "CEO, TechCorp",
-                image: "/user.jpg?height=100&width=100&text=SJ",
+                author: "Billy Aura",
+                position: "CEO, AURA LOGISTICS",
+                image: "/images/clients/aura2.jpg?height=100&width=100&text=SJ",
               },
               {
                 quote:
