@@ -2,7 +2,7 @@ import { ArrowRight } from "lucide-react";
 
 export default function GalleryHero() {
   return (
-    <div className="relative bg-gradient-to-b from-primary/10 to-background pt-20 pb-16">
+    <div className="relative  pt-20 pb-16">
       <div className="container mx-auto px-4 text-center">
         <h1 className="text-4xl md:text-5xl font-bold mb-4">
           System Aesthetics
@@ -15,7 +15,7 @@ export default function GalleryHero() {
 
         <div className="flex justify-center">
           <a
-            href="#contact"
+            href="/contact"
             className="inline-flex items-center gap-2 bg-primary text-primary-foreground px-6 py-3 rounded-md hover:bg-primary/90 transition-colors"
           >
             Get in Touch

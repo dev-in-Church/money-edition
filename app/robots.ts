@@ -7,6 +7,6 @@ export default function robots(): MetadataRoute.Robots {
       allow: "/",
       disallow: ["/admin/", "/private/"],
     },
-    sitemap: "https://devmatrix-solutions.com/sitemap.xml",
+    sitemap: "https://eunita.it.com/sitemap.xml",
   };
 }

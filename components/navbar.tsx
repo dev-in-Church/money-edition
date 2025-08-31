@@ -101,12 +101,12 @@ const mainNavItems = [
         icon: Users,
         description: "eUNITA mission and values",
       },
-      {
-        title: "Team eUNITA",
-        href: "/about/team",
-        icon: Users,
-        description: "eUNITA professionals",
-      },
+      // {
+      //   title: "Team eUNITA",
+      //   href: "/about/team",
+      //   icon: Users,
+      //   description: "eUNITA professionals",
+      // },
       {
         title: "Careers",
         href: "/about/careers",
